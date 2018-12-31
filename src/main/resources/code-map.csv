@@ -1,0 +1,39 @@
+﻿Id,Epic_label,Epic_code,Standard_code,Standard_label,Standard_code_system,Epic_code_system
+,BRCA 1 MUTATION,304050001,412734009,BRCA1 gene mutation positive (finding),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,BRCA 2 MUTATION,304050002,412738007,BRCA2 gene mutation positive (finding),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,BREAST CANCER,1204,254837009,Malignant neoplasm of breast (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,CANCER,95,363346000,Malignant neoplastic disease (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, BLADDER",1200000007,399326009,Malignant tumor of urinary bladder (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, BRAIN",2102300002,109912006,Overlapping malignant neoplasm of brain (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, BREAST",5,254837009,Malignant neoplasm of breast (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, COLON",6,363406005,Malignant neoplasm of colon (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, KIDNEY",2100000003,363518003,Malignant tumor of kidney (disorder) ,http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, OTHER",9,363346000,Malignant neoplastic disease (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, OVARIAN",71,363443007,Malignant tumor of ovary (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, PANCREAS",2100000011,363418001,Malignant tumor of pancreas (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, PROSTATE",8,399068003,Malignant tumor of prostate (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, RECTAL",1010000010,363351006,Malignant tumor of rectum (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, STOMACH",1010000011,363349007,Malignant tumor of stomach (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,"CANCER, UTERINE/ENDOMETRIAL",234,371973000,Malignant neoplasm of uterus (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,COLON CANCER,20102,363406005,Malignant neoplasm of colon (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,FAMILIAL ADENOMATOUS POLYPOSIS,202,72900001,Familial multiple polyposis syndrome (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,LYNCH SYNDROME,2102300000,716318002,Lynch syndrome (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,OTHER CANCER,588,363346000,Malignant neoplastic disease (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,OVARIAN CANCER,1205,363443007,Malignant tumor of ovary (disorder),http://snomed.info/sct,http://epic.com/clarity/zc_medical_hx/utah
+,AUNT,11,AUNT,aunt,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,BROTHER,4,BRO,brother,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,DAUGHTER,9,DAU,natural daughter,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,FATHER,2,NFTH,natural father,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,MATERNAL AUNT,30316,MAUNT,maternal aunt,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,MATERNAL GRANDFATHER,6,MGRFTH,maternal grandfather,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,MATERNAL GRANDMOTHER,5,MGRMTH,maternal grandmother,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,MATERNAL UNCLE,30313,MUNCLE,maternal uncle,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,MOTHER,1,NMTH,natural mother,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,OTHER,14,FAMMEMB,family member,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,PATERNAL AUNT,30314,PAUNT,paternal aunt,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,PATERNAL GRANDFATHER,8,PGRFTH,paternal grandfather,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,PATERNAL GRANDMOTHER,7,PGRMTH,paternal grandmother,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,PATERNAL UNCLE,30315,PUNCLE,paternal uncle,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,SISTER,3,SIS,sister,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,SON,10,SON,natural son,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah
+,UNCLE,12,UNCLE,uncle,http://hl7.org/fhir/ValueSet/v3-FamilyMember,http://epic.com/clarity/zc_relation/utah

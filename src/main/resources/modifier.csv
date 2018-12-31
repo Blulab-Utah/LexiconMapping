@@ -1,0 +1,873 @@
+﻿Id,Type,Regex,Direction,Lex
+,ACUTE,,bidirectional,acute
+,ACUTE,,bidirectional,new
+,ACUTE,new from(\sthe)? prior (exam|study),bidirectional,new from prior exam
+,ADOPTIVE_CHILD,adopted child,bidirectional,adopted child
+,ADOPTIVE_CHILD,adoptive child,bidirectional,adoptive child
+,ADOPTIVE_CHILD,adopted children,bidirectional,adopted children
+,ADOPTIVE_CHILD,adopting child,bidirectional,adopting child
+,ADOPTIVE_CHILD,adopting children,bidirectional,adopting children
+,ADOPTIVE_DAUGHTER,adoptive daughter,bidirectional,adoptive daughter
+,ADOPTIVE_SON,adoptive son,bidirectional,adoptive son
+,RANGE_INDICATOR,,bidirectional,\~
+,RANGE_INDICATOR,,bidirectional,about
+,RANGE_INDICATOR,,bidirectional,around
+,RANGE_INDICATOR,,bidirectional,aroudn
+,RANGE_INDICATOR,,bidirectional,approx
+,RANGE_INDICATOR,,bidirectional,over
+,RANGE_INDICATOR,,bidirectional,under
+,RANGE_INDICATOR,,bidirectional,at lower end of 
+,RANGE_INDICATOR,,bidirectional,at le of
+,RANGE_INDICATOR,,bidirectional,at greater end of
+,RANGE_INDICATOR,,forward,at ge of
+,AGE_RANGE,,bidirectional,late
+,RANGE_INDICATOR,,bidirectional,less than
+,RANGE_INDICATOR,,bidirectional,greater than
+,RANGE_INDICATOR,,bidirectional,after
+,RANGE_INDICATOR,,bidirectional,prior to 
+,RANGE_INDICATOR,,bidirectional,mid
+,AGE_RANGE,,bidirectional,early
+,AGE_RANGE,,bidirectional,young
+,AGE_RANGE,,bidirectional,elderly
+,AGE_RANGE,,bidirectional,\d{2}\?
+,AGE_RANGE,,bidirectional,postmenopausal
+,AGE_RANGE,,bidirectional,elder years
+,FREQUENCY,,bidirectional,times \d{1}
+,FREQUENCY,,bidirectional,\d{1} times
+,FREQUENCY,,bidirectional,"x\s?\d{1,2}"
+,STAGE,,bidirectional,stage \d\.\d
+,STAGE,,bidirectional,stage \d
+,AGE_RANGE,,bidirectional,\d{2}\-\d{2}s
+,AGE_RANGE,,bidirectional,\d{2}\-\d{2}
+,AGE_RANGE,,bidirectional,\d{2}\'s
+,AGE_RANGE,,bidirectional,\d{2}'s
+,AGE_RANGE,,bidirectional,\d{2} s
+,AGE_RANGE,,bidirectional,in (his|her) \d{2} s
+,AGE_RANGE,,bidirectional,\d{2}s of age
+,AGE_EXACT,,bidirectional,\d{2} y/o
+,AGE_EXACT,,bidirectional,\d{2} yo
+,AGE_EXACT,,bidirectional,\d{2}yo
+,AGE_EXACT,,bidirectional,"\d{1,2}yrs"
+,AGE_EXACT,,bidirectional,"\@\s?\d{1,2} yo"
+,AGE_EXACT,,bidirectional,"\@ \d{1,2}"
+,AGE_EXACT,,bidirectional,"\@\d{1,2}"
+,AGE_RANGE,,bidirectional,\d{2}ish
+,AGE_EXACT,,bidirectional,\d{2}-year-old
+,AGE_EXACT,,bidirectional,\d{2} years
+,AGE_EXACT,,bidirectional,\d{2} years aold
+,AGE_EXACT,,bidirectional,\d{2} years old
+,AGE_EXACT,,bidirectional,\d{2} year old
+,AGE_EXACT,,bidirectional,\d{2} yr old
+,AGE_EXACT,,bidirectional,\d{2} yrs old
+,AGE_EXACT,,bidirectional,"age \d{1,2}"
+,AGE_EXACT,,bidirectional,"age \d{1,2}y"
+,AGE_EXACT,,bidirectional,\d{2}
+,AGE_RANGE,,bidirectional,in (his|her) \d{2}s
+,AGE_RANGE,,bidirectional,age \d{2}\'s
+,AGE_RANGE,,bidirectional,\d{2}s
+,AGE_RANGE,,bidirectional,\d{2}\'s
+,AGE_RANGE,,bidirectional,\d{2}'s
+,AGE_RANGE,twenties,bidirectional,twenties
+,AGE_RANGE,thirties,bidirectional,thirties
+,AGE_RANGE,forties,bidirectional,forties
+,AGE_RANGE,fifties,bidirectional,fifties
+,AGE_RANGE,sixties,bidirectional,sixties
+,AGE_RANGE,seventies,bidirectional,seventies
+,AGE_RANGE,eighties,bidirectional,eighties
+,AGE_RANGE,nineties,bidirectional,nineties
+,AGE_RANGE,teens,bidirectional,teens
+,AGE_EXACT,"\d{1,2} year(s)? of age",bidirectional,years of age
+,AGE_EXACT,,bidirectional,at \d{2}
+,AGE_EXACT,at age \d{2},bidirectional,at age \d{2}
+,AGE_EXACT,age of \d{2},bidirectional,age of \d{2}
+,AGE_EXACT,,bidirectional,"age \d{1,2}"
+,AGE_RANGE,adult,bidirectional,adult
+,AGE_RANGE,\d{2}'s,bidirectional,age decade
+,AGE_EXACT,\d{2} y/o,bidirectional,\d{2}  y/o
+,AGE_RANGE,\d{2}s,bidirectional,age decade
+,AGE_RANGE,\d{2}ish,bidirectional,age-fuzzy
+,RELATIVE_DATE,,bidirectional,"x \d{1,2} years (prior|after)"
+,AMBIVALENT_EXISTENCE,,backward,cannot be excluded
+,AMBIVALENT_EXISTENCE,is\sin\sthe\sdifferential,backward,is in the differential
+,AMBIVALENT_EXISTENCE,(is|was|are|were)\snot\sexcluded,backward,is not excluded
+,AMBIVALENT_EXISTENCE,not\s(excluded|ruled\sout),backward,not excluded
+,AMBIVALENT_EXISTENCE,,bidirectional,cannot be evaluated
+,AMBIVALENT_EXISTENCE,,bidirectional,incompletely evaluated
+,AMBIVALENT_EXISTENCE,,bidirectional,less likely
+,AMBIVALENT_EXISTENCE,,bidirectional,versus
+,AMBIVALENT_EXISTENCE,,forward,cannot
+,AMBIVALENT_EXISTENCE,cannot\sexclude,forward,cannot exclude
+,AMBIVALENT_EXISTENCE,,forward,cannot see
+,AMBIVALENT_EXISTENCE,differential\s((diagnosis|considerations)\s)?((would|could)\sinclud[a-z]*)?,forward,differential diagnosis would include
+,AMBIVALENT_EXISTENCE,,forward,no complaints of
+,AMBIVALENT_EXISTENCE,,forward,not know of
+,AMBIVALENT_EXISTENCE,,forward,not known to have
+,AMBIVALENT_EXISTENCE,,forward,test for
+,AMBIVALENT_EXISTENCE,,forward,unable to adequately assess
+,AMBIVALENT_EXISTENCE,,forward,unable to assess
+,AMBIVALENT_EXISTENCE,,bidirectional,borderline
+,AMBIVALENT_EXISTENCE,cannot rule (the patient |him |her )?out,forward,cannot rule out
+,AMBIVALENT_EXISTENCE,,bidirectional,could not be ruled
+,AMBIVALENT_EXISTENCE,,bidirectional,equivocal
+,AMBIVALENT_EXISTENCE,,bidirectional,highly hesitant
+,AMBIVALENT_EXISTENCE,,bidirectional,indication
+,AMBIVALENT_EXISTENCE,,forward,insufficient to rule (the patient|him|her) out for
+,AMBIVALENT_EXISTENCE,not adequate to rule ((the patient|him|her)\s)?out,forward,not adequate to rule out
+,AMBIVALENT_EXISTENCE,(was|were) not excluded,backward,was not excluded
+,AUNT,aunt,bidirectional,aunt
+,AUNT,aunts,bidirectional,aunts
+,AUNT,aunt,bidirectional,aunt
+,AUNT,aunt's,bidirectional,aunt's
+,BIOLOGICAL_GRAND-PARENT,natural grand-parent,bidirectional,natural grand-parent
+,BLOOD_RELATIVE,biological relative,bidirectional,biological relative
+,BLOOD_RELATIVE,blood relation,bidirectional,blood relation
+,BLOOD_RELATIVE,blood relative,bidirectional,blood relative
+,BLOOD_RELATIVE,natural relative,bidirectional,natural relative
+,BLOOD_RELATIVE,blood relatives,bidirectional,blood relatives
+,BLOOD_RELATIVE,consanguinity,bidirectional,consanguinity
+,BROTHER,brothers,bidirectional,brothers
+,BROTHER,brother,bidirectional,brother
+,BROTHER,brother,bidirectional,brother
+,BROTHER,brother's,bidirectional,brother's
+,CHILD,child,bidirectional,child
+,CHILD,child youth,bidirectional,child youth
+,CHILD,childhood age person,bidirectional,childhood age person
+,CHILD,children,bidirectional,children
+,CONJ,,terminate,although
+,CONJ,,terminate,apart from
+,CONJ,,terminate,as a cause for
+,CONJ,,terminate,as a cause of
+,CONJ,,terminate,as a etiology for
+,CONJ,,terminate,as a etiology of
+,CONJ,,terminate,as a reason for
+,CONJ,,terminate,as a reason of
+,CONJ,,terminate,as a secondary cause for
+,CONJ,,terminate,as a secondary cause of
+,CONJ,,terminate,as a secondary etiology for
+,CONJ,,terminate,as a secondary etiology of
+,CONJ,,terminate,as a secondary origin for
+,CONJ,,terminate,as a secondary origin of
+,CONJ,,terminate,as a secondary reason for
+,CONJ,,terminate,as a secondary reason of
+,CONJ,,terminate,as a secondary source for
+,CONJ,,terminate,as a secondary source of
+,CONJ,,terminate,as a source for
+,CONJ,,terminate,as a source of
+,CONJ,,terminate,as an cause for
+,CONJ,,terminate,as an cause of
+,CONJ,,terminate,as an etiology for
+,CONJ,,terminate,as an etiology of
+,CONJ,,terminate,as an origin for
+,CONJ,,terminate,as an origin of
+,CONJ,,terminate,as an reason for
+,CONJ,,terminate,as an reason of
+,CONJ,,terminate,as an secondary cause for
+,CONJ,,terminate,as an secondary cause of
+,CONJ,,terminate,as an secondary etiology for
+,CONJ,,terminate,as an secondary etiology of
+,CONJ,,terminate,as an secondary origin for
+,CONJ,,terminate,as an secondary origin of
+,CONJ,,terminate,as an secondary reason for
+,CONJ,,terminate,as an secondary reason of
+,CONJ,,terminate,as an secondary source for
+,CONJ,,terminate,as an secondary source of
+,CONJ,,terminate,as an source for
+,CONJ,,terminate,as an source of
+,CONJ,,terminate,as the cause for
+,CONJ,,terminate,as the cause of
+,CONJ,,terminate,as the etiology for
+,CONJ,,terminate,as the etiology of
+,CONJ,,terminate,as the origin for
+,CONJ,,terminate,as the origin of
+,CONJ,,terminate,as the reason for
+,CONJ,,terminate,as the reason of
+,CONJ,,terminate,as the secondary cause for
+,CONJ,,terminate,as the secondary cause of
+,CONJ,,terminate,as the secondary etiology for
+,CONJ,,terminate,as the secondary etiology of
+,CONJ,,terminate,as the secondary origin for
+,CONJ,,terminate,as the secondary origin of
+,CONJ,,terminate,as the secondary reason for
+,CONJ,,terminate,as the secondary reason of
+,CONJ,,terminate,as the secondary source for
+,CONJ,,terminate,as the secondary source of
+,CONJ,,terminate,as the source for
+,CONJ,,terminate,as the source of
+,CONJ,,terminate,as there are 
+,CONJ,,terminate,aside from
+,CONJ,,terminate,but
+,CONJ,,terminate,cause for
+,CONJ,,terminate,cause of
+,CONJ,,terminate,causes for
+,CONJ,,terminate,causes of
+,CONJ,,terminate,etiology for
+,CONJ,,terminate,etiology of
+,CONJ,,terminate,except
+,CONJ,,terminate,however
+,CONJ,,terminate,involving
+,CONJ,,terminate,nevertheless
+,CONJ,,terminate,origin for
+,CONJ,,terminate,origin of
+,CONJ,,terminate,origins for
+,CONJ,,terminate,origins of
+,CONJ,,terminate,other possibilities of
+,CONJ,,terminate,reason for
+,CONJ,,terminate,reason of
+,CONJ,,terminate,reasons for
+,CONJ,,terminate,reasons of
+,CONJ,,terminate,secondary to
+,CONJ,,terminate,source for
+,CONJ,,terminate,source of
+,CONJ,,terminate,sources for
+,CONJ,,terminate,sources of
+,CONJ,,terminate,still
+,CONJ,,terminate,though
+,CONJ,,terminate,trigger event for
+,CONJ,,terminate,which
+,CONJ,,terminate,yet
+,COUSIN,cousins,bidirectional,cousins
+,COUSIN,cousin,bidirectional,cousin
+,DATE,\d{4},backward,\d{4}
+,DATE,,bidirectional,"\d{1,2}\\d{1,2}"
+,DATE,,bidirectional,"\d{1,2}/\d{1,2}"
+,DATE,\d{2}-\d{2}-\d{4},bidirectional,\d{2}-\d{2}-\d{4}
+,DATE,\d{4}-\d{2}-\d{2},bidirectional,\d{4}-\d{2}-\d{2}
+,DATE,\d{4}\\\d{2}\\\d{2},bidirectional,\d{4}\\\d{2}\\\d{2}
+,DATE,\d{4}-\d{2}-\d{2},bidirectional,\d{4}-\d{2}-\d{2}
+,DATE,"\d{1,2}\\\d{1,2}\\\d{2,4}",bidirectional,"\d{1,2}\\\d{1,2}\\\d{2,4}"
+,DATE,"\d{1,2}-\d{1,2}-\d{2,4}",bidirectional,"\d{1,2}-\d{1,2}-\d{2,4}"
+,DATE,"\d{1,2}\.\d{1,2}\.\d{2,4}",bidirectional,"\d{1,2}\.\d{1,2}\.\d{2,4}"
+,DATE,"\d{1,2}\/\d{1,2}\/\d{2,4}",bidirectional,"\d{1,2}\/\d{1,2}\/\d{2,4}"
+,DURATION,\d{4}\-\d{4},bidirectional,\d{4}\-\d{4}
+,DAUGHTER,aughter,bidirectional,aughter
+,DAUGHTER,daughters,bidirectional,daughters
+,DAUGHTER,daughter,bidirectional,daughter
+,DEATH,,bidirectional,passed at
+,DEATH,,bidirectional,deceased
+,DEATH,,bidirectional,lived to
+,DEATH,,bidirectional,COD
+,DEATH,,bidirectional,passed
+,DEATH,,bidirectional,passed away
+,DEATH,,bidirectional,cause of death
+,DEATH,,bidirectional,died from it
+,DEATH,,bidirectional,died of
+,DEATH,,bidirectional,died of this
+,DEATH,died,bidirectional,died
+,DEATH,,bidirectional,expired
+,DEFINITE_EXISTENCE,(is|are) present,backward,is present
+,DEFINITE_EXISTENCE,,forward,appears to be
+,DEFINITE_EXISTENCE,,forward,compatible with
+,DEFINITE_EXISTENCE,,forward,consistent with
+,DEFINITE_EXISTENCE,,forward,convincing
+,DEFINITE_EXISTENCE,,forward,definite
+,DEFINITE_EXISTENCE,,forward,evidence
+,DEFINITE_EXISTENCE,,forward,highly suggestive
+,DEFINITE_EXISTENCE,,forward,obvious
+,DEFINITE_EXISTENCE,positive (study|exam|examination)( for),forward,positive study for
+,DEFINITE_EXISTENCE,,forward,represents
+,DEFINITE_EXISTENCE,,bidirectional,believe
+,DEFINITE_EXISTENCE,,forward,can see
+,DEFINITE_EXISTENCE,,forward,gross evidence
+,DEFINITE_EXISTENCE,,bidirectional,high probability
+,DEFINITE_EXISTENCE,,bidirectional,is positive
+,DEFINITE_EXISTENCE,,forward,reveals
+,DEFINITE_EXISTENCE,,forward,(pos\.)
+,DEFINITE_EXISTENCE,,bidirectional,constant
+,DEFINITE_EXISTENCE,,forward,rebound
+,DEFINITE_EXISTENCE,,forward,had significant
+,DEFINITE_EXISTENCE,,bidirectional,able to reduce
+,DEFINITE_EXISTENCE,,bidirectional,continues
+,DEFINITE_EXISTENCE,,bidirectional,not clear
+,DEFINITE_EXISTENCE,,backward,moderated
+,DEFINITE_EXISTENCE,,bidirectional,episodes
+,DEFINITE_EXISTENCE,,forward,having
+,DEFINITE_EXISTENCE,,bidirectional,\(\+\)
+,DEFINITE_NEGATED_EXISTENCE,,backward,are ruled out
+,DEFINITE_NEGATED_EXISTENCE,,backward,can be ruled out
+,DEFINITE_NEGATED_EXISTENCE,,backward,could be ruled out
+,DEFINITE_NEGATED_EXISTENCE,,backward,free
+,DEFINITE_NEGATED_EXISTENCE,,backward,has been ruled out
+,DEFINITE_NEGATED_EXISTENCE,,backward,have been ruled out
+,DEFINITE_NEGATED_EXISTENCE,(is|was) negative,backward,is negative
+,DEFINITE_NEGATED_EXISTENCE,,backward,is ruled out
+,DEFINITE_NEGATED_EXISTENCE,,backward,is ruled out
+,DEFINITE_NEGATED_EXISTENCE,,backward,must be ruled out
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,unlikely
+,DEFINITE_NEGATED_EXISTENCE,,backward,was ruled out
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,may be ruled out
+,DEFINITE_NEGATED_EXISTENCE,no longer (seen|noted|visualized),bidirectional,no longer noted
+,DEFINITE_NEGATED_EXISTENCE,\bnot\b,bidirectional,not
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,ruled out
+,DEFINITE_NEGATED_EXISTENCE,,forward,absence of
+,DEFINITE_NEGATED_EXISTENCE,,forward,adequate to rule the patient out
+,DEFINITE_NEGATED_EXISTENCE,,forward,can be ruled out for
+,DEFINITE_NEGATED_EXISTENCE,can rule (her|him|the patient) out,forward,can rule the patient out
+,DEFINITE_NEGATED_EXISTENCE,,forward,could be ruled out for
+,DEFINITE_NEGATED_EXISTENCE,,forward,declined
+,DEFINITE_NEGATED_EXISTENCE,,forward,did rule (the patient|him|her) out
+,DEFINITE_NEGATED_EXISTENCE,,forward,did rule out
+,DEFINITE_NEGATED_EXISTENCE,,forward,did rule her out against
+,DEFINITE_NEGATED_EXISTENCE,,forward,fails to reveal
+,DEFINITE_NEGATED_EXISTENCE,,forward,free of
+,DEFINITE_NEGATED_EXISTENCE,,forward,must be ruled out for
+,DEFINITE_NEGATED_EXISTENCE,negative (examination|study|exam|evaluation) for,forward,negative examination for
+,DEFINITE_NEGATED_EXISTENCE,,forward,negative for
+,DEFINITE_NEGATED_EXISTENCE,,forward,never had
+,DEFINITE_NEGATED_EXISTENCE,\bno\b,forward,no
+,DEFINITE_NEGATED_EXISTENCE,,forward,no abnormal
+,DEFINITE_NEGATED_EXISTENCE,no[\s]*definite,forward,no definite
+,DEFINITE_NEGATED_EXISTENCE,(no|without)\s((definite|other|definitive|secondary|indirect)\s)?((radiographic|sonographic|CT)\s)?evidence\s(of|for),forward,no evidence of
+,DEFINITE_NEGATED_EXISTENCE,,forward,no findings to indicate
+,DEFINITE_NEGATED_EXISTENCE,,forward,no new
+,DEFINITE_NEGATED_EXISTENCE,no sign(s)?,forward,no signs
+,DEFINITE_NEGATED_EXISTENCE,,forward,no suggestion
+,DEFINITE_NEGATED_EXISTENCE,(\b(without|no)\b[\d\D\s]*to suggest),forward,no XYZ to suggest
+,DEFINITE_NEGATED_EXISTENCE,,forward,not demonstrate
+,DEFINITE_NEGATED_EXISTENCE,,forward,not exhibit
+,DEFINITE_NEGATED_EXISTENCE,,forward,not had
+,DEFINITE_NEGATED_EXISTENCE,,forward,not have
+,DEFINITE_NEGATED_EXISTENCE,,forward,not reveal
+,DEFINITE_NEGATED_EXISTENCE,,forward,not see
+,DEFINITE_NEGATED_EXISTENCE,,forward,patient was not
+,DEFINITE_NEGATED_EXISTENCE,ruled\s(him|her|the subject|the patient|subject|patient)\sout( against| for)?,forward,ruled her out against
+,DEFINITE_NEGATED_EXISTENCE,,forward,ruled out against
+,DEFINITE_NEGATED_EXISTENCE,,forward,ruled out for
+,DEFINITE_NEGATED_EXISTENCE,,forward,rules her out
+,DEFINITE_NEGATED_EXISTENCE,rules\s(him|her)\sout\sfor,forward,rules her out for
+,DEFINITE_NEGATED_EXISTENCE,rules\s(him|her)\sout,forward,rules him out
+,DEFINITE_NEGATED_EXISTENCE,rules\s(him|her)\sout\sfor,forward,rules him out for
+,DEFINITE_NEGATED_EXISTENCE,,forward,rules out
+,DEFINITE_NEGATED_EXISTENCE,,forward,rules out for
+,DEFINITE_NEGATED_EXISTENCE,,forward,rules the patient out
+,DEFINITE_NEGATED_EXISTENCE,,forward,rules the patient out for
+,DEFINITE_NEGATED_EXISTENCE,sufficient\sto\srule\s((her|him|the patient|the subject)\s)?out,forward,sufficient to rule out
+,DEFINITE_NEGATED_EXISTENCE,,forward,unremarkable for
+,DEFINITE_NEGATED_EXISTENCE,,forward,with no
+,DEFINITE_NEGATED_EXISTENCE,,forward,without
+,DEFINITE_NEGATED_EXISTENCE,without sign(s)?,forward,without sign
+,DEFINITE_NEGATED_EXISTENCE,,forward,(no|nothing) convincing
+,DEFINITE_NEGATED_EXISTENCE,,forward,(the patient|him|her) was not
+,DEFINITE_NEGATED_EXISTENCE,,forward,can rule out
+,DEFINITE_NEGATED_EXISTENCE,,forward,can rule out against
+,DEFINITE_NEGATED_EXISTENCE,,forward,can rule out for
+,DEFINITE_NEGATED_EXISTENCE,(completely|entirely)? excluded,backward,completely excluded
+,DEFINITE_NEGATED_EXISTENCE,,backward,excluded
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,not likely
+,DEFINITE_NEGATED_EXISTENCE,,forward,non
+,DEFINITE_NEGATED_EXISTENCE,,forward,(neg\.)
+,DEFINITE_NEGATED_EXISTENCE,,forward,not experienced
+,DEFINITE_NEGATED_EXISTENCE,,backward,gone
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,relief
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,relieved
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,completely gone
+,DEFINITE_NEGATED_EXISTENCE,,bidirectional,\(\-\)
+,DIAGNOSIS,,bidirectional,d\.
+,DIAGNOSIS,,bidirectional,began
+,DIAGNOSIS,,bidirectional,onset
+,DIAGNOSIS,,bidirectional,age of onset
+,DIAGNOSIS,,bidirectional,reoccurrence
+,DIAGNOSIS,,bidirectional,reoccur
+,DIAGNOSIS,,bidirectional,detected
+,DIAGNOSIS,,bidirectional,early onset
+,DIAGNOSIS,,bidirectional,returned
+,DIAGNOSIS,,bidirectional,late onset
+,DIAGNOSIS,,bidirectional,diag
+,DIAGNOSIS,,bidirectional,diagnose
+,DIAGNOSIS,diagnos[a-z]+,bidirectional,diagnosed
+,DIAGNOSIS,,bidirectional,diagnosis
+,DIAGNOSIS,found,bidirectional,found
+,DIAGNOSIS,discovered,bidirectional,discovered
+,DIAGNOSIS,confirmed,bidirectional,confirmed
+,DIAGNOSIS,dx,bidirectional,dx
+,DIAGNOSIS,dx'd,bidirectional,dx'd
+,DIAGNOSIS,dx'ed,bidirectional,dx'ed
+,DIAGNOSIS,since,bidirectional,since
+,DURATION,(one|two|three|four|five|six|seven|eight|nine) days ago,bidirectional,number days ago
+,DURATION,(one|two|three|four|five|six|seven|eight|nine) days,bidirectional,number days
+,DURATION,month(s)? ago,bidirectional,month ago
+,DURATION,couple month(s)?,bidirectional,couple months
+,DURATION,several day(s)?,bidirectional,several day
+,DURATION,few month(s)?,bidirectional,few months
+,DURATION,couple week(s)?,bidirectional,couple weeks
+,DURATION,few week(s)?,bidirectional,few weeks
+,DURATION,week(s)? ago,bidirectional,weeks ago
+,DURATION,weekend,bidirectional,weekend
+,DURATION,week(s)?,bidirectional,week
+,DURATION,((last|past) year),bidirectional,past year
+,DURATION,,bidirectional,for years
+,DURATION,,bidirectional,"\d{1,2} yrs ago"
+,DURATION,month(s)?,bidirectional,for months
+,DURATION,"\d{1,2} day(s)?",bidirectional,few days
+,DURATION,"\d{1,2} day(s)? ago",bidirectional,few days ago
+,DURATION,(one|two|three|four|five|six|seven|eight|nine) years ago,bidirectional,alpha years ago
+,DURATION,(one|two|three|four|five|six|seven|eight|nine) years,bidirectional,alpha years
+,DURATION,"(\d{1,2}  year(s)? ago)",bidirectional,numeric years ago
+,DURATION,(one|two|three|four|five|six|seven|eight|nine) weeks ago,bidirectional,number weeks ago
+,DURATION,(one|two|three|four|five|six|seven|eight|nine) weeks,bidirectional,number weeks
+,DURATION,"\d{1,2}-\d{1,2}  year(s)? ago",bidirectional,numeric range years ago
+,ELDERLY_PARENTS,aged parents,bidirectional,aged parents
+,ELDERLY_PARENTS,elderly parents,bidirectional,elderly parents
+,ELDERLY_PARENTS,aging parent,bidirectional,aging parent
+,ELDERLY_PARENTS,aging parents,bidirectional,aging parents
+,ELDERLY_PARENTS,elderly parent,bidirectional,elderly parent
+,ELDERLY_PARENTS,elderly parenting,bidirectional,elderly parenting
+,EXTENDED_FAMILY_MEMBER,extended family member,bidirectional,extended family member
+,FAMILY,fhmx,bidirectional,fhmx
+,FAMILY,fhx,bidirectional,fhx
+,FAMILY,fh,bidirectional,fh
+,FAMILY,fh - family history,bidirectional,fh - family history
+,FAMILY,fh reviewed,bidirectional,fh reviewed
+,FAMILY,fh unchanged,bidirectional,fh unchanged
+,FAMILY,fhx reviewed,bidirectional,fhx reviewed
+,FAMILY,fhx unchanged,bidirectional,fhx unchanged
+,FAMILY,family history,bidirectional,family history
+,FAMILY,family history domain,bidirectional,family history domain
+,FAMILY,family history of,bidirectional,family history of
+,FAMILY,family medical history,bidirectional,family medical history
+,FAMILY,family health history,bidirectional,family health history
+,FAMILY,family history,bidirectional,family history
+,FAMILY,family history of,bidirectional,family history of
+,FAMILY,family social history,bidirectional,family social history
+,FAMILY,child's family history,bidirectional,child's family history
+,FAMILY,family history,bidirectional,family history
+,FAMILY,family history free text,bidirectional,family history free text
+,FAMILY,family history reviewed,bidirectional,family history reviewed
+,FAMILY,family history unchanged,bidirectional,family history unchanged
+,FAMILY,family medical history,bidirectional,family medical history
+,FAMILY,family social history,bidirectional,family social history
+,FAMILY,fhs,bidirectional,fhs
+,FAMILY,free text for family history,bidirectional,free text for family history
+,FAMILY,of family history,bidirectional,of family history
+,FATHER,fathers,bidirectional,fathers
+,FATHER,father,bidirectional,father
+,FATHER,fathering,bidirectional,fathering
+,FATHER,dad,bidirectional,dad
+,FATHER,father's,bidirectional,father's
+,FATHER,dad's,bidirectional,dad's
+,FATHER,father,bidirectional,father
+,FATHER_IN-LAW,father-in-law,bidirectional,father-in-law
+,FIRST_COUSIN,first cousin,bidirectional,first cousin
+,FIRST_COUSIN,cousins first,bidirectional,cousins first
+,FIRST_DEGREE_BLOOD_RELATIVE,first degree blood relative,bidirectional,first degree blood relative
+,FOSTER_CHILD,foster child,bidirectional,foster child
+,FOSTER_PARENT,foster parent,bidirectional,foster parent
+,FOSTER_PARENT,foster parenting,bidirectional,foster parenting
+,FOSTER_PARENT,foster parents,bidirectional,foster parents
+,FRATERNAL_TWIN,dizygotic twins,bidirectional,dizygotic twins
+,FRATERNAL_TWIN,fraternal twin,bidirectional,fraternal twin
+,FRATERNAL_TWIN,fraternal twins,bidirectional,fraternal twins
+,FRATERNAL_TWIN,heterozygotic twins,bidirectional,heterozygotic twins
+,FRATERNAL_TWIN,heterozygous twin,bidirectional,heterozygous twin
+,FRATERNAL_TWIN,"twin, dizygotic",bidirectional,"twin, dizygotic"
+,FRATERNAL_TWIN,"twin, fraternal",bidirectional,"twin, fraternal"
+,FRATERNAL_TWIN,"twins, dizygotic",bidirectional,"twins, dizygotic"
+,FRATERNAL_TWIN,"twins, fraternal",bidirectional,"twins, fraternal"
+,FRATERNAL_TWIN,dizygotic twin,bidirectional,dizygotic twin
+,FRATERNAL_TWIN,twins fraternal,bidirectional,twins fraternal
+,FUTURE,(at\s)?risk\s(in\sthe\sfuture\s)?(for|of),forward,at risk for
+,FUTURE,clinical (concern|suspicion)\b,forward,clinical concern
+,FUTURE,,forward,if there are
+,FUTURE,,forward,if there is concern for
+,FUTURE,,forward,predispose to 
+,FUTURE,,forward,warned of
+,FUTURE,,forward,were warned
+,FUTURE,risk factor(s)?,bidirectional,risk factor
+,GRANDCHILD,grandchild,bidirectional,grandchild
+,GRANDCHILD,grandchildren,bidirectional,grandchildren
+,GRANDCHILD,child grand,bidirectional,child grand
+,GRANDDAUGHTER,granddaughter,bidirectional,granddaughter
+,GRANDDAUGHTER,granddaughter #1,bidirectional,granddaughter #1
+,GRANDFATHER,grandfather,bidirectional,grandfather
+,GRANDFATHER,grandfathered,bidirectional,grandfathered
+,GRANDFATHER,grandfather,bidirectional,grandfather
+,GRANDFATHER,grandfather's,bidirectional,grandfather's
+,GRANDMOTHER,grandmother,bidirectional,grandmother
+,GRANDMOTHER,grand mothers,bidirectional,grand mothers
+,GRANDMOTHER,grand-mother,bidirectional,grand-mother
+,GRANDMOTHER,grandmothers,bidirectional,grandmothers
+,GRANDMOTHER,grandmother,bidirectional,grandmother
+,GRANDMOTHER,grandmother's,bidirectional,grandmother's
+,GRANDPARENT,grandparent,bidirectional,grandparent
+,GRANDPARENT,grandparents,bidirectional,grandparents
+,GRANDPARENT,grandparenting,bidirectional,grandparenting
+,GRANDSON,grandson,bidirectional,grandson
+,GREAT_GRANDCHILD,great-grandchild,bidirectional,great-grandchild
+,GREAT_GRANDFATHER,great-grandfather,bidirectional,great-grandfather
+,GREAT_GRANDFATHER,great grandfather,bidirectional,great grandfather
+,GREAT_GRANDMOTHER,great-grandmother,bidirectional,great-grandmother
+,GREAT_GRANDMOTHER,great grandmother,bidirectional,great grandmother
+,GREAT_GRANDPARENT,great grand-parent,bidirectional,great grand-parent
+,GREAT_GRANDPARENT,great-grandparent,bidirectional,great-grandparent
+,GREAT_GREAT_GRANDCHILD,great-grandchild,bidirectional,great-grandchild
+,HALF-BROTHER,half-brother,bidirectional,half-brother
+,HALF-SIBLING,half relative,bidirectional,half relative
+,HALF-SIBLING,half sibling,bidirectional,half sibling
+,HALF-SIBLING,half-sibling,bidirectional,half-sibling
+,HALF-SISTER,half-sister,bidirectional,half-sister
+,HISTORICAL,,backward,now measuring
+,HISTORICAL,,backward,progressed
+,HISTORICAL,,backward,resolved
+,HISTORICAL,,backward,varying ages
+,HISTORICAL,,bidirectional,again
+,HISTORICAL,,bidirectional,age indeterminate
+,HISTORICAL,\bchronic[a-z]*\b,bidirectional,chronic
+,HISTORICAL,,bidirectional,diminished
+,HISTORICAL,,bidirectional,evolving
+,HISTORICAL,\b(healing|healed)\b,bidirectional,healing
+,HISTORICAL,improved|improving|improvement,bidirectional,improved
+,HISTORICAL,,bidirectional,interval change
+,HISTORICAL,(interval)\b[\d\D\s]*increase,bidirectional,interval increase
+,HISTORICAL,,bidirectional,likely chronic
+,HISTORICAL,(no(t)? ([a-zA-z] )?change(d)?( in)?),bidirectional,no change in
+,HISTORICAL,,bidirectional,not significantly changed
+,HISTORICAL,(on |from )?(previous|prior) exam,bidirectional,on previous exam
+,HISTORICAL,,bidirectional,persistent
+,HISTORICAL,,bidirectional,previous
+,HISTORICAL,previously (described|suspected),bidirectional,previously described
+,HISTORICAL,,bidirectional,prior
+,HISTORICAL,,bidirectional,prior study
+,HISTORICAL,,bidirectional,stable
+,HISTORICAL,,bidirectional,still evident
+,HISTORICAL,,bidirectional,subacute
+,HISTORICAL,unchanged|unchanging,bidirectional,unchanged
+,HISTORICAL,,forward,change in
+,HISTORICAL,,forward,changing
+,HISTORICAL,,forward,clinical history
+,HISTORICAL,,forward,decrease in
+,HISTORICAL,,forward,decrease in
+,HISTORICAL,,forward,documented
+,HISTORICAL,,forward,history of
+,HISTORICAL,\bknown\b,forward,known
+,HISTORICAL,,forward,no definite change
+,HISTORICAL,,forward,no increase
+,HISTORICAL,,forward,no significant change
+,HISTORICAL,,forward,no significant interval change
+,HISTORICAL,,forward,no suspicious change
+,HISTORICAL,progression\s(of|in),forward,progression of
+,HISTORICAL,(re-demonstrat[a-z]*|redemonstrat[a-z]*),forward,redemonstration
+,HISTORICAL,,forward,remote
+,HISTORICAL,,forward,residual
+,HISTORICAL,,forward,resolution of
+,HISTORICAL,,forward,resolving
+,HISTORICAL,,forward,sequelae of
+,HISTORICAL,decrease|decreased|decreasing|reduction|reduced,bidirectional,decrease
+,HISTORICAL,increase|increasing|increased,bidirectional,increase
+,HISTORICAL,,backwards,without change
+,HISTORICAL,,bidirectional,resolved
+,HOMOSEXUAL_PARENTS,homosexual parent,bidirectional,homosexual parent
+,HOMOSEXUAL_PARENTS,homosexual parents,bidirectional,homosexual parents
+,HOMOSEXUAL_PARENTS,homosexual parenting,bidirectional,homosexual parenting
+,HUSBAND,husbands,bidirectional,husbands
+,HUSBAND,husband,bidirectional,husband
+,HYPOTHETICAL,,forward,if
+,IDENTICAL_TWIN,identical twins,bidirectional,identical twins
+,IDENTICAL_TWIN,identical twin,bidirectional,identical twin
+,IDENTICAL_TWIN,monochorial twins,bidirectional,monochorial twins
+,IDENTICAL_TWIN,monovular twins,bidirectional,monovular twins
+,IDENTICAL_TWIN,monozygotic twin,bidirectional,monozygotic twin
+,IDENTICAL_TWIN,monozygotic twins,bidirectional,monozygotic twins
+,IDENTICAL_TWIN,monozygous twin,bidirectional,monozygous twin
+,IDENTICAL_TWIN,"twin, identical",bidirectional,"twin, identical"
+,IDENTICAL_TWIN,"twin, monozygotic",bidirectional,"twin, monozygotic"
+,IDENTICAL_TWIN,"twins, identical",bidirectional,"twins, identical"
+,IDENTICAL_TWIN,"twins, monozygotic",bidirectional,"twins, monozygotic"
+,IDENTICAL_TWIN,uniovular twins,bidirectional,uniovular twins
+,IDENTICAL_TWIN,monozygous twinning,bidirectional,monozygous twinning
+,INDICATION,,backward,be ruled out
+,INDICATION,,backward,being ruled out
+,INDICATION,\b(examination|exam|study)\b,backward,examination
+,INDICATION,,backward,is to be ruled out
+,INDICATION,,backward,not been ruled out
+,INDICATION,,backward,ought to be ruled out
+,INDICATION,,backward,protocol
+,INDICATION,,backward,should be ruled out
+,INDICATION,,backward,will be ruled out
+,INDICATION,,bidirectional,evaluation
+,INDICATION,,forward,assessment for
+,INDICATION,,forward,be ruled out for
+,INDICATION,,forward,evaluate for
+,INDICATION,evaluation\s(of|for),forward,evaluation of
+,INDICATION,(study|exam|examination) for,forward,examination for
+,INDICATION,,forward,higher sensitivity for
+,INDICATION,,forward,is to be ruled out for
+,INDICATION,is more sensitive,forward,is more sensitive
+,INDICATION,,forward,ought to be ruled out for
+,INDICATION,,forward,rule her out
+,INDICATION,,forward,rule him out
+,INDICATION,,forward,rule him out for
+,INDICATION,(r/o|rule out|\br o\b|r\.o\.|\bro\b),forward,rule out
+,INDICATION,,forward,rule out for
+,INDICATION,rule (him|her|patient|the patient|subject) out for,forward,rule patient out for
+,INDICATION,,forward,rule the patient out
+,INDICATION,,forward,rule the patient out for
+,INDICATION,,forward,should be ruled out for
+,INDICATION,,forward,study for detection
+,INDICATION,,forward,what must be ruled out is
+,INDICATION,,forward,will be ruled out for
+,INFANT_CHILD,infant,bidirectional,infant
+,INFANT_CHILD,infant child,bidirectional,infant child
+,INFANT_CHILD,infants,bidirectional,infants
+,INFANT_CHILD,babies,bidirectional,babies
+,INFANT_CHILD,baby,bidirectional,baby
+,MATERNAL_GRANDMOTHER,maternal grandmother,bidirectional,maternal grandmother
+,MATERNAL_PARENTS,maternal parents,bidirectional,maternal parents
+,MATERNAL_SIDE,maternal,bidirectional,maternal
+,MATERNAL_SIDE,,bidirectional,mat
+,MATERNAL_SIDE,,bidirectional,matern
+,MATERNAL_SIDE,,bidirectional,mom's side
+,DATE,in (Feb |Sept |Apr |Jun |Nov |Jan |Mar |May |Jul |Aug |Oct |Dec ),bidirectional,month
+,DATE,in (February |September |April |June |November |January |March |May |July |August |October |December ),bidirectional,month
+,DATE,on (Feb |Sept |Apr |Jun |Nov |Jan |Mar |May |Jul |Aug |Oct |Dec ),bidirectional,month
+,DATE,on (February |September |April |June |November |January |March |May |July |August |October |December ),bidirectional,month
+,DATE,(Feb |Sept |Apr |Jun |Nov |Jan |Mar |Jul |Aug |Oct |Dec ),bidirectional,month
+,DATE,(February |September |April |June |November |January |March |July |August |October |December ),bidirectional,month
+,DATE,\d{2}\\\d{2},bidirectional,"\d{1,2}\\\d{2}"
+,DATE,on \d{2}\\\d{2},bidirectional,"on \d{1,2}\\\d{2}"
+,DATE,"on \d{2}\\\d{2,4}",bidirectional,"in \d{2}\\\d{2,4}"
+,DATE,"\d{2}\/\d{2,4}",bidirectional,"\d{2}\/\d{2,4}"
+,DATE,"((Feb |Sept |Apr |Jun |Nov |Jan |Mar |May |Jul |Aug |Oct |Dec )\d{2,4})",bidirectional,month
+,DATE,"((February |September |April |June |November |January |March |May |July |August |October |December )\d{2,4})",bidirectional,month
+,MOTHER,mother,bidirectional,mother
+,MOTHER,mothers,bidirectional,mothers
+,MOTHER,mothering,bidirectional,mothering
+,MOTHER,mom,bidirectional,mom
+,MOTHER,mother's,bidirectional,mother's
+,MOTHER,mom's,bidirectional,mom's
+,MOTHER,mother,bidirectional,mother
+,MOTHER_IN-LAW,mother-in-law,bidirectional,mother-in-law
+,NATURAL_BROTHER,biological brother,bidirectional,biological brother
+,NATURAL_BROTHER,natural brother,bidirectional,natural brother
+,NATURAL_CHILD,natural child,bidirectional,natural child
+,NATURAL_DAUGHTER,natural daughter,bidirectional,natural daughter
+,NATURAL_FATHER,biological father,bidirectional,biological father
+,NATURAL_FATHER,natural father,bidirectional,natural father
+,NATURAL_GRAND-FATHER,natural grand-father,bidirectional,natural grand-father
+,NATURAL_GRAND-MOTHER,natural grand-mother,bidirectional,natural grand-mother
+,NATURAL_GRAND-PARENT,natural grand-parent,bidirectional,natural grand-parent
+,NATURAL_MOTHER,biological mother,bidirectional,biological mother
+,NATURAL_MOTHER,natural mother,bidirectional,natural mother
+,NATURAL_PARENT,natural parent,bidirectional,natural parent
+,NATURAL_PARENT,naturalparent,bidirectional,naturalparent
+,NATURAL_SIBLING,natural sibling,bidirectional,natural sibling
+,NATURAL_SISTER,biological sister,bidirectional,biological sister
+,NATURAL_SISTER,natural sister,bidirectional,natural sister
+,NATURAL_SON,natural son,bidirectional,natural son
+,NEPHEW,nephew,bidirectional,nephew
+,NEPHEW,nephews,bidirectional,nephews
+,NIECE,niece,bidirectional,niece
+,NIECE,nieces,bidirectional,nieces
+,DIAGNOSIS,,bidirectional,onset
+,PARENT,parent,bidirectional,parent
+,PARENT,parent of,bidirectional,parent of
+,PARENT,parental,bidirectional,parental
+,PARENT,parents,bidirectional,parents
+,PARENT,of parent,bidirectional,of parent
+,PARENT_IN-LAW,parent in-law,bidirectional,parent in-law
+,PATERNAL_GRAND-FATHER,paternal grandfather,bidirectional,paternal grandfather
+,PATERNAL_GRANDMOTHER,paternal grandmother,bidirectional,paternal grandmother
+,PATERNAL_PARENTS,paternal parents,bidirectional,paternal parents
+,PATERNAL_SIDE,,bidirectional,pat
+,PATERNAL_SIDE,,bidirectional,patern
+,PATERNAL_SIDE,,bidirectional,paternal
+,PATERNAL_SIDE,,bidirectional,dad's side
+,PATIENT,patient,bidirectional,patient
+,PATIENT, pt ,bidirectional,pt
+,PERSON_IN_THE_FAMILY,family members,bidirectional,family members
+,PERSON_IN_THE_FAMILY,family member,bidirectional,family member
+,PERSON_IN_THE_FAMILY,people in the family,bidirectional,people in the family
+,PERSON_IN_THE_FAMILY,person in the family,bidirectional,person in the family
+,PERSON_IN_THE_FAMILY,family people,bidirectional,family people
+,PERSON_IN_THE_FAMILY,family person,bidirectional,family person
+,PRE,pre,bidirectional,PRE
+,PRE,borderline,bidirectional,borderline
+,PRE,prediabetes,bidirectional,prediabetes
+,PRE,borderline diabetes,bidirectional,borderline diabetes
+,PROBABLE_EXISTENCE,,backward,suspected
+,PROBABLE_EXISTENCE,(\bappear\b|\bappears\b),bidirectional,appear
+,PROBABLE_EXISTENCE,,bidirectional,equivocal
+,PROBABLE_EXISTENCE,,bidirectional,likely
+,PROBABLE_EXISTENCE,,bidirectional,possible
+,PROBABLE_EXISTENCE,,bidirectional,probable
+,PROBABLE_EXISTENCE,,bidirectional,should be considered
+,PROBABLE_EXISTENCE,\bsuggest[a-z]+\b,bidirectional,suggest
+,PROBABLE_EXISTENCE,,forward,checked for
+,PROBABLE_EXISTENCE,,forward,concerning for
+,PROBABLE_EXISTENCE,,forward,may be related
+,PROBABLE_EXISTENCE,(may|might)\s(represent|reflect),forward,may represent
+,PROBABLE_EXISTENCE,,forward,rather than
+,PROBABLE_EXISTENCE,,forward,suspicious
+,PROBABLE_EXISTENCE,,forward,suspicous
+,PROBABLE_EXISTENCE,,forward,worrisome
+,PROBABLE_EXISTENCE,,bidirectional,as a suggestion
+,PROBABLE_EXISTENCE,,forward,associated with
+,PROBABLE_EXISTENCE,,bidirectional,construed as
+,PROBABLE_EXISTENCE,,forward,could be
+,PROBABLE_EXISTENCE,,forward,could represent
+,PROBABLE_EXISTENCE,,forward,every indication
+,PROBABLE_EXISTENCE,,bidirectional,exhibit
+,PROBABLE_EXISTENCE,,backward,seen best
+,PROBABLE_EXISTENCE,,bidirectional,signs of
+,PROBABLE_EXISTENCE,,forward,possibly
+,PROBABLE_EXISTENCE,,forward,suspect
+,PROBABLE_EXISTENCE,likely (represents|representing),forward,likely represents
+,PROBABLE_EXISTENCE,,bidirectional,favor
+,PROBABLE_EXISTENCE,,bidirectional,positive
+,PROBABLE_NEGATED_EXISTENCE,,backward,cannot totally be excluded
+,PROBABLE_NEGATED_EXISTENCE,(is|was|are|were|does)\snot\s(entirely|totally|definitely|completely\s) excluded,backward,is not entirely excluded
+,PROBABLE_NEGATED_EXISTENCE,,backward,might be ruled out
+,PROBABLE_NEGATED_EXISTENCE,not definitively (seen|visualized),backward,not definitively seen
+,PROBABLE_NEGATED_EXISTENCE,,backward,would not be expected
+,PROBABLE_NEGATED_EXISTENCE,cannot\sbe\s((entirely|completely|totally)\s)?(excluded|ruled out),bidirectional,cannot be completely excluded
+,PROBABLE_NEGATED_EXISTENCE,,bidirectional,clear
+,PROBABLE_NEGATED_EXISTENCE,,bidirectional,questionable
+,PROBABLE_NEGATED_EXISTENCE,,forward,atypical for
+,PROBABLE_NEGATED_EXISTENCE,,forward,cannot totally exclude
+,PROBABLE_NEGATED_EXISTENCE,,forward,declines
+,PROBABLE_NEGATED_EXISTENCE,,forward,denied
+,PROBABLE_NEGATED_EXISTENCE,,forward,denies
+,PROBABLE_NEGATED_EXISTENCE,,forward,deny
+,PROBABLE_NEGATED_EXISTENCE,,forward,denying
+,PROBABLE_NEGATED_EXISTENCE,,forward,low probability
+,PROBABLE_NEGATED_EXISTENCE,,forward,might be ruled out for
+,PROBABLE_NEGATED_EXISTENCE,,forward,mimicking
+,PROBABLE_NEGATED_EXISTENCE,,forward,never developed
+,PROBABLE_NEGATED_EXISTENCE,,forward,no cause of
+,PROBABLE_NEGATED_EXISTENCE,,forward,no convincing
+,PROBABLE_NEGATED_EXISTENCE,,forward,no findings of
+,PROBABLE_NEGATED_EXISTENCE,,forward,no obvious
+,PROBABLE_NEGATED_EXISTENCE,,forward,no other
+,PROBABLE_NEGATED_EXISTENCE,,forward,no sign of
+,PROBABLE_NEGATED_EXISTENCE,,forward,no significant
+,PROBABLE_NEGATED_EXISTENCE,(no|without) (definite|definitive|secondary|indirect) ((radiographic|sonographic|CT)\s)?signs\s(of|for),forward,no definite signs of
+,PROBABLE_NEGATED_EXISTENCE,\bnor\b,forward,nor
+,PROBABLE_NEGATED_EXISTENCE,,forward,not appreciate
+,PROBABLE_NEGATED_EXISTENCE,,forward,not associated with
+,PROBABLE_NEGATED_EXISTENCE,,forward,not clearly evident
+,PROBABLE_NEGATED_EXISTENCE,,forward,not complain of
+,PROBABLE_NEGATED_EXISTENCE,,forward,not feel
+,PROBABLE_NEGATED_EXISTENCE,,forward,not to be
+,PROBABLE_NEGATED_EXISTENCE,,forward,nothing
+,PROBABLE_NEGATED_EXISTENCE,,forward,simulating
+,PROBABLE_NEGATED_EXISTENCE,,forward,to exclude
+,PROBABLE_NEGATED_EXISTENCE,,forward,without indication
+,PROBABLE_NEGATED_EXISTENCE,,forward,no other (CT|radiographic|sonographic|MR|etc) evidence
+,PROBABLE_NEGATED_EXISTENCE,,forward,no secondary (CT|radiographic|sonographic|MR|etc) signs
+,PROBABLE_NEGATED_EXISTENCE,,forward,no suspicious
+,PROBABLE_NEGATED_EXISTENCE,decreas[a-z]+(\sthe)? likelihood,forward,decrease the likelihood
+,PSEUDONEG,,forward,gram negative
+,PSEUDONEG,,forward,not cause
+,PSEUDONEG,,forward,not certain whether
+,PSEUDONEG,,forward,not drain
+,PSEUDONEG,,forward,not extend
+,PSEUDONEG,,forward,not necessarily
+,PSEUDONEG,,forward,without difficulty
+,PSEUDONEG,,forward,not only
+,RELATIVE,relative,bidirectional,relative
+,RELATIVE,relatives,bidirectional,relatives
+,RELATIVE_DATE,,bidirectional,yesterday
+,RELATIVE_DATE,,bidirectional,today
+,RELATIVE_DATE,,bidirectional,last morning
+,RELATIVE_DATE,,bidirectional,last night
+,RELATIVE_DATE,,bidirectional,last afternoon
+,RELATIVE_DATE,,bidirectional,tomorrow
+,RELATIVE_DATE,(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday),bidirectional,day of week
+,RELATIVE_DATE,,bidirectional,fall
+,RELATIVE_DATE,,bidirectional,spring
+,RELATIVE_DATE,,bidirectional,winter
+,RELATIVE_DATE,,bidirectional,summer
+,SECOND_COUSIN,cousins second,bidirectional,cousins second
+,SECOND_COUSIN,second cousin,bidirectional,second cousin
+,SIBLING,sibling,bidirectional,sibling
+,SIBLING,siblings,bidirectional,siblings
+,SICK_RELATIVE,sick relative,bidirectional,sick relative
+,SINGLE_FATHER,single father,bidirectional,single father
+,SINGLE_MOTHER,single mother,bidirectional,single mother
+,SINGLE_MOTHER,mother single,bidirectional,mother single
+,SINGLE_MOTHER,mothers single,bidirectional,mothers single
+,SINGLE_MOTHER,single mothers,bidirectional,single mothers
+,SINGLE_PARENT,"parents, single",bidirectional,"parents, single"
+,SINGLE_PARENT,single parent,bidirectional,single parent
+,SINGLE_PARENT,single parents,bidirectional,single parents
+,SINGLE_PARENT,unmarried parent,bidirectional,unmarried parent
+,SINGLE_PARENT,parent single,bidirectional,parent single
+,SINGLE_PARENT,parenting single,bidirectional,parenting single
+,SINGLE_PARENT,parents single,bidirectional,parents single
+,SISTER,sisters,bidirectional,sisters
+,SISTER,sr - sister,bidirectional,sr - sister
+,SISTER,sister,bidirectional,sister
+,SISTER,sister,bidirectional,sister
+,SISTER,sister's,bidirectional,sister's
+,SON,sons,bidirectional,sons
+,SON, son ,bidirectional,son
+,SPOUSE,married persons,bidirectional,married persons
+,SPOUSE,"person, married",bidirectional,"person, married"
+,SPOUSE,"persons, married",bidirectional,"persons, married"
+,SPOUSE,spouse,bidirectional,spouse
+,SPOUSE,spouses,bidirectional,spouses
+,STEP_SIBLING,step-sibling,bidirectional,step-sibling
+,STEPCHILD,step-child,bidirectional,step-child
+,STEPCHILD,stepchild,bidirectional,stepchild
+,STEPCHILD,stepchildren,bidirectional,stepchildren
+,STEPCHILD,step child,bidirectional,step child
+,STEPDAUGHTER,stepdaughter,bidirectional,stepdaughter
+,STEPFATHER,stepfather,bidirectional,stepfather
+,STEPMOTHER,stepmother,bidirectional,stepmother
+,STEPPARENT,step parents,bidirectional,step parents
+,STEPPARENT,step parent,bidirectional,step parent
+,STEPPARENT,step-parent,bidirectional,step-parent
+,STEPPARENT,step-parents,bidirectional,step-parents
+,STEPPARENT,stepparent,bidirectional,stepparent
+,STEPPARENT,stepparents,bidirectional,stepparents
+,STEPPARENT,parenting step,bidirectional,parenting step
+,STEPPARENT,parenting steps,bidirectional,parenting steps
+,STEPPARENT,parents step,bidirectional,parents step
+,STEPSISTER,stepsister,bidirectional,stepsister
+,STEPSON,stepson,bidirectional,stepson
+,SURROGATE_MOTHER,"carriers, gestational",bidirectional,"carriers, gestational"
+,SURROGATE_MOTHER,gestational carrier,bidirectional,gestational carrier
+,SURROGATE_MOTHER,gestational carriers,bidirectional,gestational carriers
+,SURROGATE_MOTHER,gestational mother,bidirectional,gestational mother
+,SURROGATE_MOTHER,gestational mothers,bidirectional,gestational mothers
+,SURROGATE_MOTHER,host mother,bidirectional,host mother
+,SURROGATE_MOTHER,host mothers,bidirectional,host mothers
+,SURROGATE_MOTHER,"mother, gestational",bidirectional,"mother, gestational"
+,SURROGATE_MOTHER,"mother, host",bidirectional,"mother, host"
+,SURROGATE_MOTHER,"mother, surrogate",bidirectional,"mother, surrogate"
+,SURROGATE_MOTHER,"mothers, gestational",bidirectional,"mothers, gestational"
+,SURROGATE_MOTHER,"mothers, host",bidirectional,"mothers, host"
+,SURROGATE_MOTHER,"mothers, surrogate",bidirectional,"mothers, surrogate"
+,SURROGATE_MOTHER,surrogate mother,bidirectional,surrogate mother
+,SURROGATE_MOTHER,surrogate mothers,bidirectional,surrogate mothers
+,SURROGATE_MOTHER,mother substitute,bidirectional,mother substitute
+,SURROGATE_MOTHER,mothering surrogate,bidirectional,mothering surrogate
+,TWIN_SIBLING,twin sibling,bidirectional,twin sibling
+,TWIN_SIBLING,twins,bidirectional,twins
+,TWIN_SIBLING, twin,bidirectional,twin
+,TYPES,type 1,bidirectional,type 1
+,TYPES,type 2,bidirectional,type 2
+,TYPES,type I,bidirectional,type I
+,TYPES,type II,bidirectional,type II
+,UNCLE,uncle,bidirectional,uncle
+,UNCLE,uncle,bidirectional,uncle
+,UNCLE,uncle's,bidirectional,uncle's
+,WIFE,wives,bidirectional,wives
+,WIFE,wife,bidirectional,wife
+,WIFE,wife,bidirectional,wife
+,WIFE,wife's,bidirectional,wife's
+,WORKING_MOTHER,mother working,bidirectional,mother working
+,WORKING_MOTHER,mothers work,bidirectional,mothers work
+,WORKING_MOTHER,mothers working,bidirectional,mothers working
+,WORKING_MOTHER,working mother,bidirectional,working mother
+,WORKING_PARENT,parenting work,bidirectional,parenting work
+,WORKING_PARENT,parenting working,bidirectional,parenting working
+,WORKING_PARENT,parents working,bidirectional,parents working
+,WORKING_PARENT,working parent,bidirectional,working parent
+,YEAR,\d{4},bidirectional,\d{4}
+,ID_NUM,,bidirectional,"\d{5,10}"
+,PROCEDURE,,bidirectional,colonoscopy
+,PROCEDURE,,bidirectional,mastectomy
+,PROCEDURE,,bidirectional,lumpectomy
+,PROCEDURE,,bidirectional,testing
+,PROCEDURE,,bidirectional,screening
+,PROCEDURE,,bidirectional,removal
+,PROCEDURE,,bidirectional,endoscopy
