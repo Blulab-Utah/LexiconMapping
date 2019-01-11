@@ -2,11 +2,11 @@ package edu.utah.blulab.db.query;
 
 import edu.utah.blulab.db.models.EpicMappedModifierEntity;
 import edu.utah.blulab.db.models.FamilyMemberRoleCodesEntity;
+import edu.utah.blulab.db.models.SnomedMappedModifierEntity;
 import edu.utah.blulab.db.models.SnomedMappingEntity;
 import edu.utah.blulab.models.CodeMapDao;
 import edu.utah.blulab.models.ModifierDao;
 import org.hibernate.*;
-import org.hibernate.criterion.Restrictions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -113,4 +113,30 @@ public class QueryUtility {
 //        }
 
     }
+
+    public static void insertMappedCuis(FamilyMemberRoleCodesEntity familyMemberRoleCodesEntity, ModifierDao modifierDao) {
+        Session session = null;
+        Transaction transaction = null;
+        try {
+            SessionFactory sessionFactory = SessionHandler.getSessionFactory();
+            session = sessionFactory.openSession();
+            transaction = session.beginTransaction();
+            SnomedMappedModifierEntity snomedMappedModifierEntity = new SnomedMappedModifierEntity();
+            snomedMappedModifierEntity.setDirection(modifierDao.getDirection());
+            snomedMappedModifierEntity.setLex(modifierDao.getLex());
+            snomedMappedModifierEntity.setRegex(modifierDao.getRegex());
+            snomedMappedModifierEntity.setType(modifierDao.getType());
+            snomedMappedModifierEntity.setTerm(familyMemberRoleCodesEntity.getTerm());
+            snomedMappedModifierEntity.setSnomedCui(familyMemberRoleCodesEntity.getSnomedCui());
+            snomedMappedModifierEntity.setHl7FamilyMemberRoleCode(familyMemberRoleCodesEntity.getHl7FamilyMemberRoleCode());
+            snomedMappedModifierEntity.setSnomedPreferredLabel(familyMemberRoleCodesEntity.getSnomedPreferredLabel());
+            snomedMappedModifierEntity.setHl7InternalId(familyMemberRoleCodesEntity.getHl7InternalId());
+            session.persist(snomedMappedModifierEntity);
+            transaction.commit();
+            session.close();
+        } catch (Exception e) {
+            session.close();
+        }
+    }
+
 }
