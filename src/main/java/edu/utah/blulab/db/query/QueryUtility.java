@@ -90,7 +90,6 @@ public class QueryUtility {
             query.setParameter("cui", snomedMappingEntity.getCui());
             query.setParameter("id", mappedModifier.getId());
             int result = query.executeUpdate();
-            System.out.println("Rows affected: " + result);
 
         }
         session.close();
