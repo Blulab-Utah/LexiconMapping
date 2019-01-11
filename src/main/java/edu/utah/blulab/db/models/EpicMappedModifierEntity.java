@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "EpicMappedModifier")
-public class EpicMappedModifierDao {
+public class EpicMappedModifierEntity {
     private int id;
     private String epicLabel;
     private String epicCode;
@@ -133,7 +133,7 @@ public class EpicMappedModifierDao {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        EpicMappedModifierDao that = (EpicMappedModifierDao) o;
+        EpicMappedModifierEntity that = (EpicMappedModifierEntity) o;
         return id == that.id &&
                 Objects.equals(epicLabel, that.epicLabel) &&
                 Objects.equals(epicCode, that.epicCode) &&
