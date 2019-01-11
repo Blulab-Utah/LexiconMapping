@@ -12,7 +12,7 @@ import java.util.List;
 public class LexiconMappingSnomed {
 
     public static void main(String[] args) throws IOException {
-        String modifierFile = "/home/deep/IdeaProjects/LexiconMapping/src/main/resources/modifier.csv";
+        String modifierFile = "C:\\Users\\Deep\\IdeaProjects\\LexiconMapping\\src\\main\\resources\\modifier.csv";
 
         BufferedReader br = null;
         String line = "";

@@ -2,19 +2,12 @@ package edu.utah.blulab.db.query;
 
 import edu.utah.blulab.db.models.EpicMappedModifierEntity;
 import edu.utah.blulab.db.models.FamilyMemberRoleCodesEntity;
-import edu.utah.blulab.db.models.SnomedMappedModifierEntity;
 import edu.utah.blulab.db.models.SnomedMappingEntity;
 import edu.utah.blulab.models.CodeMapDao;
 import edu.utah.blulab.models.ModifierDao;
 import org.hibernate.*;
-
-import javax.persistence.criteria.CriteriaQuery;
-
 import org.hibernate.criterion.Restrictions;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaUpdate;
-import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -89,17 +82,16 @@ public class QueryUtility {
     public static void updateCuis(SnomedMappingEntity snomedMappingEntity, FamilyMemberRoleCodesEntity mappedModifier) {
         SessionFactory sessionFactory = SessionHandler.getSessionFactory();
         Session session = sessionFactory.openSession();
-        if(mappedModifier.getId().equals(null) && mappedModifier.getId().toString().isEmpty())
-        {
 
-            Transaction transaction = session.beginTransaction();
-            String hql = "UPDATE FamilyMemberRoleCodes set SNOMED_CUI = :cui "  +
-                "WHERE ID = :id";
+        if(String.valueOf(mappedModifier.getSnomedCui()).isEmpty())
+        {
+            String hql = "UPDATE FamilyMemberRoleCodesEntity SET snomedCui = :cui WHERE id = :id";
             Query query = session.createQuery(hql);
-        query.setParameter("cui", snomedMappingEntity.getCui());
-        query.setParameter("id", 10);
-        int result = query.executeUpdate();
-        System.out.println("Rows affected: " + result);
+            query.setParameter("cui", snomedMappingEntity.getCui());
+            query.setParameter("id", mappedModifier.getId());
+            int result = query.executeUpdate();
+            System.out.println("Rows affected: " + result);
+
         }
 //        Transaction transaction = session.beginTransaction();
 //        String hql = "UPDATE Employee set salary = :salary "  +
@@ -110,14 +102,14 @@ public class QueryUtility {
 //        int result = query.executeUpdate();
 //        System.out.println("Rows affected: " + result);
 
-        Criteria mappedModifierCriteria = session.createCriteria(FamilyMemberRoleCodesEntity.class);
-        mappedModifierCriteria.add(Restrictions.eq("id",mappedModifier.getId()));
-        List<?> rawResults = mappedModifierCriteria.list();
-        session.close();
-        List<FamilyMemberRoleCodesEntity> result = new ArrayList<>(rawResults.size());
-        for (Object object : rawResults) {
-            result.add((FamilyMemberRoleCodesEntity) object);
-        }
+//        Criteria mappedModifierCriteria = session.createCriteria(FamilyMemberRoleCodesEntity.class);
+//        mappedModifierCriteria.add(Restrictions.eq("id",mappedModifier.getId()));
+//        List<?> rawResults = mappedModifierCriteria.list();
+//        session.close();
+//        List<FamilyMemberRoleCodesEntity> result = new ArrayList<>(rawResults.size());
+//        for (Object object : rawResults) {
+//            result.add((FamilyMemberRoleCodesEntity) object);
+//        }
 
     }
 }

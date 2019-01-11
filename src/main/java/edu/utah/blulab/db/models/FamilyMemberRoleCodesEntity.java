@@ -6,7 +6,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "FamilyMemberRoleCodes")
 public class FamilyMemberRoleCodesEntity {
-    private Integer id;
+    private int id;
     private String term;
     private String snomedPreferredLabel;
     private String snomedCui;
@@ -16,11 +16,11 @@ public class FamilyMemberRoleCodesEntity {
     @Id
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
