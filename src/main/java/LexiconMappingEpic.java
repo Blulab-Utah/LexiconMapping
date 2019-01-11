@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LexiconMapping {
+public class LexiconMappingEpic {
 
     public static void main(String[] args) throws IOException {
-        String codeMapFile = "C:\\Users\\Deep\\IdeaProjects\\SpringSecurityRoleBasedLoginExample\\Lexicon_Mapping\\src\\main\\resources\\code-map.csv";
-        String modifierFile = "C:\\Users\\Deep\\IdeaProjects\\SpringSecurityRoleBasedLoginExample\\Lexicon_Mapping\\src\\main\\resources\\modifier.csv";
+        String codeMapFile = "/home/deep/IdeaProjects/LexiconMapping/src/main/resources/code-map.csv";
+        String modifierFile = "/home/deep/IdeaProjects/LexiconMapping/src/main/resources/modifier.csv";
 
         BufferedReader br = null;
         String line = "";
@@ -55,12 +55,19 @@ public class LexiconMapping {
             CodeMapDao codeMap = getMappedCode(modifierDao, codeMapDaoList);
             boolean status = QueryUtility.insertMappedContents(modifierDao,codeMap);
         }
+
+        System.out.println("\nComplete");
     }
 
     private static CodeMapDao getMappedCode(ModifierDao modifierDao, List<CodeMapDao> codeMapDaoList) {
 
         for (CodeMapDao codeMapDao : codeMapDaoList) {
             if (codeMapDao.getEpicLabel().equalsIgnoreCase(modifierDao.getType())) {
+                return codeMapDao;
+            }
+            else if(codeMapDao.getEpicLabel().replace("_","")
+                    .equalsIgnoreCase(modifierDao.getType().replace("_","")))
+            {
                 return codeMapDao;
             }
         }

@@ -16,11 +16,16 @@
 
          <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/NLP_DATASTORE</property>-->
         <!--<property name="hibernate.connection.url">jdbc:mysql://blulab2.chpc.utah.edu:3306/IE-Viz</property>-->
-        <property name="hibernate.connection.url">jdbc:mysql://155.101.208.201:3306/NCI</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/NCI</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">910043</property>
 
         <mapping class="edu.utah.blulab.models.CodeMapDao"/>
         <mapping class="edu.utah.blulab.models.ModifierDao"/>
-        <mapping class="edu.utah.blulab.db.models.EpicMappedModifierDao"/>
+        <mapping class="edu.utah.blulab.db.models.EpicMappedModifierEntity"/>
+        <mapping class="edu.utah.blulab.db.models.SnomedMappedModifierEntity"/>
+        <mapping class="edu.utah.blulab.db.models.FamilyMemberRoleCodesEntity"/>
+        <mapping class="edu.utah.blulab.db.models.SnomedMappingEntity"/>
 
 
     </session-factory>
