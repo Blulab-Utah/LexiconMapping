@@ -93,6 +93,7 @@ public class QueryUtility {
             System.out.println("Rows affected: " + result);
 
         }
+        session.close();
 //        Transaction transaction = session.beginTransaction();
 //        String hql = "UPDATE Employee set salary = :salary "  +
 //                "WHERE id = :employee_id";

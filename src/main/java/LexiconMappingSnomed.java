@@ -12,7 +12,7 @@ import java.util.List;
 public class LexiconMappingSnomed {
 
     public static void main(String[] args) throws IOException {
-        String modifierFile = "C:\\Users\\Deep\\IdeaProjects\\LexiconMapping\\src\\main\\resources\\modifier.csv";
+        String modifierFile = "//home//deep//IdeaProjects//LexiconMapping//src//main//resources//modifier.csv";
 
         BufferedReader br = null;
         String line = "";
@@ -23,7 +23,7 @@ public class LexiconMappingSnomed {
         br = new BufferedReader(new FileReader(modifierFile));
         while ((line = br.readLine()) != null) {
 
-            // use comma as separator
+            //// use comma as separator
             String[] modifier = line.split(cvsSplitBy);
             ModifierDao modifierDao = new ModifierDao();
             modifierDao.setType(modifier[1]);
@@ -45,6 +45,39 @@ public class LexiconMappingSnomed {
                 {
                     QueryUtility.updateCuis(snomedMappingEntity,mappedModifier);
                 }
+                else if(snomedMappingEntity.getPreferredLabel().equalsIgnoreCase("ADOPTED CHILD")
+                && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("ADOPTIVE_CHILD")))
+                {
+                    QueryUtility.updateCuis(snomedMappingEntity,mappedModifier);
+
+                }
+                else if (snomedMappingEntity.getPreferredLabel().equalsIgnoreCase("Infant of subject")
+                && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("INFANT_CHILD")))
+                {
+                    QueryUtility.updateCuis(snomedMappingEntity,mappedModifier);
+
+                }
+                else if (snomedMappingEntity.getPreferredLabel().equalsIgnoreCase("natural grandparent")
+                        && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("BIOLOGICAL_GRAND-PARENT")))
+                {
+                    QueryUtility.updateCuis(snomedMappingEntity,mappedModifier);
+
+                }
+                else if (snomedMappingEntity.getPreferredLabel().equalsIgnoreCase("Adopted daughter")
+                        && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("ADOPTIVE_DAUGHTER")))
+                {
+                    QueryUtility.updateCuis(snomedMappingEntity,mappedModifier);
+
+                }
+                else if (snomedMappingEntity.getPreferredLabel().equalsIgnoreCase("Adopted son")
+                        && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("ADOPTIVE_SON")))
+                {
+                    QueryUtility.updateCuis(snomedMappingEntity,mappedModifier);
+
+                }
+
+
+
             }
         }
 
