@@ -7,6 +7,7 @@ import edu.utah.blulab.db.models.SnomedMappingEntity;
 import edu.utah.blulab.models.CodeMapDao;
 import edu.utah.blulab.models.ModifierDao;
 import org.hibernate.*;
+import org.hibernate.criterion.Restrictions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,12 +48,6 @@ public class QueryUtility {
     public static List<FamilyMemberRoleCodesEntity> getFamilyMemberRoleCodeEntity() {
         SessionFactory sessionFactory = SessionHandler.getSessionFactory();
         Session session = sessionFactory.openSession();
-//        CriteriaBuilder builder = session.getCriteriaBuilder();
-//        CriteriaQuery<FamilyMemberRoleCodesEntity> query = builder.createQuery(FamilyMemberRoleCodesEntity.class);
-//        Root<FamilyMemberRoleCodesEntity> root = query.from(FamilyMemberRoleCodesEntity.class);
-//        query.select(root);
-//        Query<FamilyMemberRoleCodesEntity> q = session.createQuery(query);
-//        List<FamilyMemberRoleCodesEntity> list = q.getResultList();
         Criteria mappedModifierCriteria = session.createCriteria(FamilyMemberRoleCodesEntity.class);
         List<?> rawResults = mappedModifierCriteria.list();
         session.close();
@@ -83,59 +78,60 @@ public class QueryUtility {
         SessionFactory sessionFactory = SessionHandler.getSessionFactory();
         Session session = sessionFactory.openSession();
 
-        if(String.valueOf(mappedModifier.getSnomedCui()).isEmpty())
-        {
-            String hql = "UPDATE FamilyMemberRoleCodesEntity SET snomedCui = :cui WHERE id = :id";
-            Query query = session.createQuery(hql);
+        if(String.valueOf(mappedModifier.getSnomedCui()).isEmpty()) {
+            Query query = session.createQuery("UPDATE FamilyMemberRoleCodesEntity SET snomedCui = :cui WHERE id = :id");
             query.setParameter("cui", snomedMappingEntity.getCui());
             query.setParameter("id", mappedModifier.getId());
             int result = query.executeUpdate();
 
         }
         session.close();
-//        Transaction transaction = session.beginTransaction();
-//        String hql = "UPDATE Employee set salary = :salary "  +
-//                "WHERE id = :employee_id";
-//        Query query = session.createQuery(hql);
-//        query.setParameter("salary", 1000);
-//        query.setParameter("employee_id", 10);
-//        int result = query.executeUpdate();
-//        System.out.println("Rows affected: " + result);
-
-//        Criteria mappedModifierCriteria = session.createCriteria(FamilyMemberRoleCodesEntity.class);
-//        mappedModifierCriteria.add(Restrictions.eq("id",mappedModifier.getId()));
-//        List<?> rawResults = mappedModifierCriteria.list();
-//        session.close();
-//        List<FamilyMemberRoleCodesEntity> result = new ArrayList<>(rawResults.size());
-//        for (Object object : rawResults) {
-//            result.add((FamilyMemberRoleCodesEntity) object);
-//        }
-
     }
 
     public static void insertMappedCuis(FamilyMemberRoleCodesEntity familyMemberRoleCodesEntity, ModifierDao modifierDao) {
-        Session session = null;
-        Transaction transaction = null;
-        try {
-            SessionFactory sessionFactory = SessionHandler.getSessionFactory();
-            session = sessionFactory.openSession();
-            transaction = session.beginTransaction();
-            SnomedMappedModifierEntity snomedMappedModifierEntity = new SnomedMappedModifierEntity();
-            snomedMappedModifierEntity.setDirection(modifierDao.getDirection());
-            snomedMappedModifierEntity.setLex(modifierDao.getLex());
-            snomedMappedModifierEntity.setRegex(modifierDao.getRegex());
-            snomedMappedModifierEntity.setType(modifierDao.getType());
-            snomedMappedModifierEntity.setTerm(familyMemberRoleCodesEntity.getTerm());
-            snomedMappedModifierEntity.setSnomedCui(familyMemberRoleCodesEntity.getSnomedCui());
-            snomedMappedModifierEntity.setHl7FamilyMemberRoleCode(familyMemberRoleCodesEntity.getHl7FamilyMemberRoleCode());
-            snomedMappedModifierEntity.setSnomedPreferredLabel(familyMemberRoleCodesEntity.getSnomedPreferredLabel());
-            snomedMappedModifierEntity.setHl7InternalId(familyMemberRoleCodesEntity.getHl7InternalId());
-            session.persist(snomedMappedModifierEntity);
-            transaction.commit();
-            session.close();
-        } catch (Exception e) {
-            session.close();
-        }
+        Session session;
+        Transaction transaction;
+        SessionFactory sessionFactory = SessionHandler.getSessionFactory();
+        session = sessionFactory.openSession();
+
+//        Criteria mappedModifierCriteria = session.createCriteria(SnomedMappedModifierEntity.class);
+//        mappedModifierCriteria.add(Restrictions.eq("lex",modifierDao.getLex()));
+//        mappedModifierCriteria.add(Restrictions.eq("type",modifierDao.getType()));
+//        mappedModifierCriteria.add(Restrictions.eq("regex",modifierDao.getRegex()));
+//        mappedModifierCriteria.add(Restrictions.eq("direction",modifierDao.getDirection()));
+//        List<?> rawResults = mappedModifierCriteria.list();
+//        List<SnomedMappedModifierEntity> result = new ArrayList<>(rawResults.size());
+//        for(Object object : rawResults)
+//        {
+//            result.add((SnomedMappedModifierEntity) object);
+//        }
+//
+//        if(!result.isEmpty())
+//        {
+            try {
+                transaction = session.beginTransaction();
+                SnomedMappedModifierEntity snomedMappedModifierEntity = new SnomedMappedModifierEntity();
+                snomedMappedModifierEntity.setDirection(modifierDao.getDirection());
+                snomedMappedModifierEntity.setLex(modifierDao.getLex());
+                snomedMappedModifierEntity.setRegex(modifierDao.getRegex());
+                snomedMappedModifierEntity.setType(modifierDao.getType());
+                snomedMappedModifierEntity.setTerm(familyMemberRoleCodesEntity.getTerm());
+                snomedMappedModifierEntity.setSnomedCui(familyMemberRoleCodesEntity.getSnomedCui());
+                snomedMappedModifierEntity.setHl7FamilyMemberRoleCode(familyMemberRoleCodesEntity.getHl7FamilyMemberRoleCode());
+                snomedMappedModifierEntity.setSnomedPreferredLabel(familyMemberRoleCodesEntity.getSnomedPreferredLabel());
+                snomedMappedModifierEntity.setHl7InternalId(familyMemberRoleCodesEntity.getHl7InternalId());
+                session.persist(snomedMappedModifierEntity);
+                transaction.commit();
+            } catch (Exception e) {
+                session.close();
+            }
+//            finally {
+//                session.close();
+//            }
+//        }
+
+        session.close();
+
     }
 
 }

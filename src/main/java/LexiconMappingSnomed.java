@@ -1,5 +1,4 @@
 import edu.utah.blulab.db.models.FamilyMemberRoleCodesEntity;
-import edu.utah.blulab.db.models.SnomedMappedModifierEntity;
 import edu.utah.blulab.db.models.SnomedMappingEntity;
 import edu.utah.blulab.db.query.QueryUtility;
 import edu.utah.blulab.models.ModifierDao;
@@ -72,13 +71,26 @@ public class LexiconMappingSnomed {
                     {
                         QueryUtility.updateCuis(snomedEntity,mappedModifier);
 
-                    }
-                    else if (snomedEntity.getPreferredLabel().equalsIgnoreCase("Adopted son")
-                            && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("ADOPTIVE_SON")))
-                    {
-                        QueryUtility.updateCuis(snomedEntity,mappedModifier);
+                    } else if (snomedEntity.getPreferredLabel().equalsIgnoreCase("Maternal relative")
+                            && ((mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("MATERNAL_PARENTS"))
+                            || mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("MATERNAL_SIDE"))) {
+                        QueryUtility.updateCuis(snomedEntity, mappedModifier);
 
+                    } else if (snomedEntity.getPreferredLabel().equalsIgnoreCase("Adopted son")
+                            && (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("ADOPTIVE_SON"))) {
+                        QueryUtility.updateCuis(snomedEntity, mappedModifier);
+
+                    } else if (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("MATERNAL_SIDE")
+                            && snomedEntity.getPreferredLabel().equalsIgnoreCase("Maternal relative")) {
+                        QueryUtility.updateCuis(snomedEntity, mappedModifier);
+                    } else if (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("MATERNAL_PARENTS")
+                            && snomedEntity.getPreferredLabel().equalsIgnoreCase("Maternal relative")) {
+                        QueryUtility.updateCuis(snomedEntity, mappedModifier);
+                    } else if (mappedModifier.getSnomedPreferredLabel().equalsIgnoreCase("FAMILY")
+                            && snomedEntity.getPreferredLabel().equalsIgnoreCase("Person in family of subject")) {
+                        QueryUtility.updateCuis(snomedEntity, mappedModifier);
                     }
+
                 }
             }
         }
@@ -88,6 +100,7 @@ public class LexiconMappingSnomed {
             FamilyMemberRoleCodesEntity familyMemberRoleCodesEntity = getMappedEntities(modifierDao,mappedSnomedModifierList);
             QueryUtility.insertMappedCuis(familyMemberRoleCodesEntity,modifierDao);
         }
+
         System.out.println("\nComplete");
 
     }
@@ -95,12 +108,22 @@ public class LexiconMappingSnomed {
     private static FamilyMemberRoleCodesEntity getMappedEntities(ModifierDao modifierDao, List<FamilyMemberRoleCodesEntity> mappedSnomedModifierList) {
         for(FamilyMemberRoleCodesEntity familyMemberRoleCodesEntity : mappedSnomedModifierList)
         {
-            if(modifierDao.getType().replaceAll("[^a-zA-Z]+", "")
+            if (modifierDao.getType().equals("MATERNAL_SIDE")
+                    && familyMemberRoleCodesEntity.getSnomedPreferredLabel().equals("Maternal relative")) {
+                return familyMemberRoleCodesEntity;
+            } else if (modifierDao.getType().equals("MATERNAL_PARENTS")
+                    && familyMemberRoleCodesEntity.getSnomedPreferredLabel().equals("Maternal relative")) {
+                return familyMemberRoleCodesEntity;
+            } else if (modifierDao.getType().equals("FAMILY")
+                    && familyMemberRoleCodesEntity.getSnomedPreferredLabel().equals("Person in family of subject")) {
+                return familyMemberRoleCodesEntity;
+            }
+            if (modifierDao.getType().replaceAll("[^a-zA-Z]+", "")
                     .equalsIgnoreCase(familyMemberRoleCodesEntity.getSnomedPreferredLabel().replaceAll("[^a-zA-Z]+", "")))
             {
                 return familyMemberRoleCodesEntity;
-
             }
+
         }
         return new FamilyMemberRoleCodesEntity();
     }
