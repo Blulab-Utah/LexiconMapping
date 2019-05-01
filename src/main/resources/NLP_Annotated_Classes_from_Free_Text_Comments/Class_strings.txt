@@ -1,0 +1,1313 @@
++ <---> Positive
++ brca <---> Reason_Condition_Code
+05/2017 <---> Onset_period
+1 brother <---> Relationship
+10/11 sister diagnosed <---> Onset_range
+1982 <---> Onset_period
+1986 <---> Onset_period
+1997 <---> Onset_period
+1st degree relative <---> Relationship
+2 sisters <---> Relationship
+20 yo <---> Onset_age
+20 yrs ago <---> Onset_period
+20-40s diagnosed <---> Onset_range
+2003 <---> Onset_period
+2013 <---> Onset_period
+2014 <---> Onset_period
+2015 <---> Onset_period
+22 <---> Onset_age
+25 years ago <---> Onset_period
+2nd and 3rd cousin <---> Relationship
+2nd cousin <---> Relationship
+2nd cousins <---> Relationship
+3 uncles <---> Relationship
+30 <---> Onset_age
+30 yrs old <---> Onset_age
+30's <---> Onset_range
+30s <---> Onset_range
+33 <---> Onset_age
+34 <---> Onset_age
+3rd cousin <---> Relationship
+4 sisters <---> Relationship
+40 <---> Onset_age
+40's <---> Onset_range
+40s or 50 yo <---> Onset_age
+42 <---> Onset_age
+44 <---> Onset_age
+45 y/o <---> Onset_age
+47 <---> Onset_age
+48 <---> Onset_age
+48 years <---> Onset_age
+48 years old <---> Onset_age
+5 yrs ago <---> Onset_period
+50 <---> Onset_age
+50's <---> Onset_range
+50's or 60's <---> Onset_range
+50-60s <---> Onset_range
+51 <---> Onset_age
+54 <---> Onset_age
+55 <---> Onset_age
+55 yrs <---> Onset_age
+55's <---> Onset_range
+56 <---> Onset_age
+58 <---> Onset_age
+58 y/o ""nephew"" died <---> Deceased_age
+59 <---> Onset_age
+60 <---> Onset_age
+60's <---> Onset_range
+60's deceased <---> Deceased_range
+60s-70s? <---> Onset_range
+62 <---> Onset_age
+62 yo died <---> Deceased_age
+62 yo- developed colon ca <---> Onset_age
+63 <---> Deceased_age
+65 <---> Onset_age
+65 y/o <---> Onset_age
+65 yrs <---> Onset_age
+67 <---> Onset_age
+68 <---> Onset_age
+69 <---> Onset_age
+70 <---> Onset_age
+70 yo <---> Onset_age
+70's <---> Onset_range
+70s <---> Onset_range
+71 <---> Reason_Condition_Code
+73 <---> Onset_age
+75 years old <---> Onset_age
+75 yrs <---> Onset_age
+76 <---> Onset_age
+76 y/o <---> Onset_age
+76yrs old <---> Onset_age
+77 y/o <---> Onset_age
+78 <---> Onset_age
+78 yr old <---> Onset_age
+80 <---> Onset_age
+80 when died of <---> Deceased_age
+80 years old <---> Onset_age
+80s <---> Onset_range
+84 <---> Onset_age
+85 <---> Onset_age
+86 y/o <---> Onset_age
+88 y/o <---> Onset_age
+90 years old <---> Onset_age
+90's <---> Onset_range
+>65 yo <---> Onset_range
+>70 <---> Onset_range
+? <---> Uncertainty
+? 60's <---> Onset_range
+? type <---> Uncertainty
+? unknown <---> Uncertainty
+? vs. <---> Uncertainty
+?? <---> Uncertainty
+??smoker <---> Uncertainty
+@60 <---> Onset_age
+abdominal ca <---> Reason_Condition_Code
+abnormal protien cancer <---> Reason_Condition_Code
+about 20years ago <---> Onset_period
+about 51 years old <---> Onset_range
+about age 60 <---> Onset_range
+acute lymphocytic leukemia <---> Reason_Condition_Code
+adenocarcinoma <---> Reason_Condition_Code
+adenocarcinoma of lung <---> Reason_Condition_Code
+adenomatous polyps <---> Reason_Condition_Code
+adnocarcinoma <---> Reason_Condition_Code
+adopted son <---> Relationship
+adrenal <---> Reason_Condition_Code
+after age 65 <---> Onset_range
+age 2 <---> Onset_age
+age 23 <---> Onset_age
+age 24 yrs <---> Onset_age
+age 30 <---> Onset_age
+age 35 <---> Onset_age
+age 36 <---> Onset_age
+age 37 <---> Onset_age
+age 40 <---> Onset_age
+age 40's <---> Onset_range
+age 40ish <---> Onset_range
+age 40s <---> Onset_range
+age 41 <---> Onset_age
+age 42 <---> Onset_age
+age 43 <---> Onset_age
+age 45 <---> Onset_age
+age 45+ <---> Onset_range
+age 46 <---> Onset_age
+age 46yo <---> Onset_age
+age 49-50 years <---> Onset_age
+age 5 <---> Onset_age
+age 50 <---> Onset_age
+age 50's <---> Onset_range
+age 53 <---> Onset_age
+age 55 <---> Onset_age
+age 56 <---> Onset_age
+age 56y <---> Onset_age
+age 57 <---> Onset_age
+age 5? <---> Onset_range
+age 60 <---> Onset_age
+age 60's <---> Onset_range
+age 64 <---> Onset_age
+age 65 <---> Onset_age
+age 65 at diagnosis <---> Onset_age
+age 67 <---> Onset_age
+age 69 <---> Onset_age
+age 69 diagnosis <---> Onset_age
+age 70 <---> Onset_age
+age 70's <---> Onset_range
+age 70ish <---> Onset_range
+age 70s <---> Onset_range
+age 72 <---> Onset_age
+age 74 <---> Onset_age
+age 77 <---> Onset_age
+age 78 <---> Onset_age
+age 78 years <---> Onset_age
+age 79 <---> Onset_age
+age 79 when she shared being sick with the family <---> Onset_range
+age 80 <---> Onset_age
+age 80s <---> Onset_age
+age 82 <---> Onset_age
+age 87 <---> Onset_age
+age 9 y <---> Onset_age
+age 94 <---> Onset_age
+age 96 <---> Onset_age
+age > 60 <---> Onset_range
+age approx 80 <---> Onset_range
+age between 50-60 <---> Onset_range
+age late 70s <---> Onset_range
+age low 70's <---> Onset_range
+age of onset unknown 60-70? <---> Onset_range
+alcoholic <---> Reason_Condition_Code
+all <---> Reason_Condition_Code
+all over body <---> Reason_Condition_Code
+all over her body <---> Reason_Condition_Code
+anal <---> Reason_Condition_Code
+anal ca <---> Reason_Condition_Code
+anaplastic astrocytoma <---> Reason_Condition_Code
+anaplastic thyroid <---> Reason_Condition_Code
+anul <---> Reason_Condition_Code
+appendiceal carcinoma <---> Reason_Condition_Code
+around 55? <---> Onset_range
+around age 70 <---> Onset_range
+around age 80 <---> Onset_range
+arthritis <---> Reason_Condition_Code
+at 26 <---> Onset_age
+at 30 <---> Onset_age
+at 34 <---> Onset_age
+at 37 years aold <---> Onset_age
+at 40 y/o <---> Onset_age
+at 40 years <---> Onset_age
+at 46 <---> Onset_age
+at 67 <---> Onset_age
+at 80 <---> Onset_age
+at 87 <---> Onset_age
+at 88 years <---> Onset_age
+at 89 <---> Onset_age
+at age 34 <---> Onset_age
+at age 41 <---> Onset_age
+at age 45 <---> Onset_age
+at age 64 dx <---> Onset_age
+at age 71 <---> Onset_age
+at age 73 <---> Onset_age
+at age 89 <---> Onset_age
+at age 90 years <---> Onset_age
+at age in 80s <---> Onset_range
+at age of 16yrs <---> Onset_age
+at age of 36yrs <---> Onset_age
+at age of 88 <---> Onset_age
+at ge of 45yrs <---> Onset_age
+at older age <---> Onset_range
+at the age of 70 years <---> Onset_age
+at very young age. <---> Onset_range
+aunt by marriage <---> Relationship
+aunt moms side <---> Relationship
+aunt on mother side <---> Relationship
+aunt's daughter <---> Relationship
+aunts dad side <---> Relationship
+back <---> Reason_Condition_Code
+basal and squamous cell skin <---> Reason_Condition_Code
+basal cell <---> Reason_Condition_Code
+basal cell carcinoma <---> Reason_Condition_Code
+bc <---> Reason_Condition_Code
+bcc <---> Reason_Condition_Code
+bcell lymphoma <---> Reason_Condition_Code
+beign <---> Reason_Condition_Code
+believes <---> Uncertainty
+benign <---> Reason_Condition_Code
+benign cranial tumor <---> Reason_Condition_Code
+benign lump <---> Reason_Condition_Code
+benign pollips removed <---> Reason_Condition_Code
+benign polyps <---> Reason_Condition_Code
+benign tumor <---> Reason_Condition_Code
+berkits lymphoma <---> Reason_Condition_Code
+bi-lat mastectomies <---> Reason_Condition_Code
+bilateral mastectomy <---> Reason_Condition_Code
+bile duct <---> Reason_Condition_Code
+bladdar <---> Reason_Condition_Code
+bladdder cancer <---> Reason_Condition_Code
+bladder <---> Reason_Condition_Code
+bladder ca <---> Reason_Condition_Code
+bld ca <---> Reason_Condition_Code
+bleeding <---> Reason_Condition_Code
+blood <---> Reason_Condition_Code
+blood cancer <---> Reason_Condition_Code
+bone <---> Reason_Condition_Code
+bone ca of the leg <---> Reason_Condition_Code
+bone cancer <---> Reason_Condition_Code
+bone cancer in shoulder <---> Reason_Condition_Code
+bone marrow <---> Reason_Condition_Code
+bone marrow cancer <---> Reason_Condition_Code
+bones <---> Reason_Condition_Code
+both aunts <---> Relationship
+both breasts removed <---> Reason_Condition_Code
+bowel ca <---> Reason_Condition_Code
+bowel cancer <---> Reason_Condition_Code
+bowel cancers <---> Reason_Condition_Code
+bowel obstruction <---> Reason_Condition_Code
+br <---> Reason_Condition_Code
+br ca <---> Reason_Condition_Code
+brac 1 <---> Reason_Condition_Code
+brac 1 and 2 <---> Reason_Condition_Code
+braca 1 <---> Reason_Condition_Code
+braca 1 and 2 <---> Reason_Condition_Code
+braca testing <---> Reason_Condition_Code
+brain <---> Reason_Condition_Code
+brain ca <---> Reason_Condition_Code
+brain ca; <---> Reason_Condition_Code
+brain cancer <---> Reason_Condition_Code
+brain cancer glioblastoma multiforme <---> Reason_Condition_Code
+brain metastases <---> Reason_Condition_Code
+brain tumor in eye <---> Reason_Condition_Code
+brain tumour <---> Reason_Condition_Code
+brc2 <---> Reason_Condition_Code
+brca <---> Reason_Condition_Code
+brca 2 <---> Reason_Condition_Code
+brca carriers <---> Reason_Condition_Code
+brca neg <---> Reason_Condition_Code
+brca-1 <---> Reason_Condition_Code
+brca2+ <---> Reason_Condition_Code
+breast <---> Reason_Condition_Code
+breast and lung cancer <---> Reason_Condition_Code
+breast ca. <---> Reason_Condition_Code
+breast cancer <---> Reason_Condition_Code
+breast cancer gene study <---> Reason_Condition_Code
+breast removed <---> Reason_Condition_Code
+breasts removed <---> Reason_Condition_Code
+brother <---> Relationship
+brother's son <---> Relationship
+brothers <---> Relationship
+bso <---> Reason_Condition_Code
+ca with mets <---> Reason_Condition_Code
+cancer <---> Reason_Condition_Code
+cancer and multi <---> Reason_Condition_Code
+cancer in bone marrow <---> Reason_Condition_Code
+cancer in eye <---> Reason_Condition_Code
+cancer in the breast <---> Reason_Condition_Code
+cancer in uterus <---> Reason_Condition_Code
+cancer liver <---> Reason_Condition_Code
+cancer of the esophagus <---> Reason_Condition_Code
+cancer of the urteris <---> Reason_Condition_Code
+cancer on foot <---> Reason_Condition_Code
+cancer spots on face removed <---> Reason_Condition_Code
+cancer started in his lungs <---> Reason_Condition_Code
+cancerous polyps <---> Reason_Condition_Code
+cancers <---> Reason_Condition_Code
+carcinoid <---> Reason_Condition_Code
+carcinoid tumor <---> Reason_Condition_Code
+carcinoma <---> Reason_Condition_Code
+carcinoma in situ <---> Reason_Condition_Code
+carsinoma, mastisized to lungs <---> Reason_Condition_Code
+cause of death <---> Deceased_string
+cause of death at 67 <---> Deceased_age
+cerival <---> Reason_Condition_Code
+cervical <---> Reason_Condition_Code
+cervical ca <---> Reason_Condition_Code
+cervical cancer <---> Reason_Condition_Code
+cervical cancner <---> Reason_Condition_Code
+cervical dysplasia <---> Reason_Condition_Code
+cervicle <---> Reason_Condition_Code
+chemo <---> Reason_Condition_Code
+chemo induced leukemia <---> Reason_Condition_Code
+chemotherapy <---> Reason_Condition_Code
+chest <---> Reason_Condition_Code
+chewing tobacco <---> Reason_Condition_Code
+cholangiocarcinoma <---> Reason_Condition_Code
+cis <---> Reason_Condition_Code
+cod <---> Deceased_string
+colitis <---> Reason_Condition_Code
+collectomy <---> Reason_Condition_Code
+colo <---> Reason_Condition_Code
+colon <---> Reason_Condition_Code
+colon ca <---> Reason_Condition_Code
+colon cancer <---> Reason_Condition_Code
+colon polyps <---> Reason_Condition_Code
+colon polyps, precancerous <---> Reason_Condition_Code
+colon rectal cancer <---> Reason_Condition_Code
+colon/colon <---> Reason_Condition_Code
+colonon cancer <---> Reason_Condition_Code
+colonoscopy <---> Reason_Condition_Code
+colorectal <---> Reason_Condition_Code
+colorectal ca <---> Reason_Condition_Code
+colostomy <---> Reason_Condition_Code
+complicatoin of cancer <---> Reason_Condition_Code
+continuing therapy <---> Reason_Condition_Code
+cousin <---> Relationship
+cousin,paternal <---> Relationship
+cousins <---> Relationship
+crohn's <---> Reason_Condition_Code
+crohns <---> Reason_Condition_Code
+cx <---> Reason_Condition_Code
+d. 87yo <---> Onset_age
+dad side <---> Sidedness_paternal
+dad's <---> Sidedness_paternal
+dad's paternal cousin <---> Relationship
+dad's side <---> Sidedness_paternal
+dad's sister <---> Relationship
+daughter <---> Relationship
+daughter of aunt <---> Relationship
+daughters <---> Relationship
+dead at 84 <---> Onset_age
+death <---> Deceased_string
+death in 70s <---> Deceased_range
+dec'd 51 yrs <---> Deceased_age
+deceased - brain tumor-2001 <---> Deceased_date
+deceased 20 years ago <---> Deceased_date
+deceased 2002 <---> Deceased_date
+deceased 2017 <---> Deceased_date
+deceased 3/8/16 <---> Deceased_date
+deceased 41 <---> Deceased_age
+deceased 5 years after diagnosis <---> Deceased_date
+deceased 51 <---> Deceased_age
+deceased @ 60s <---> Deceased_age
+deceased age 40 <---> Deceased_age
+deceased at 50 <---> Deceased_age
+deceased from breast ca at 50 <---> Deceased_age
+deceased from colon ca at 16 <---> Deceased_age
+deceased from metastatic breast cancer june 2012 <---> Deceased_date
+deceased from this <---> Deceased_string
+deceased in 2012 <---> Deceased_date
+deceased in 60's <---> Deceased_range
+deceased last year <---> Deceased_date
+deceased, age 45 <---> Deceased_age
+developed around 60 <---> Onset_range
+diag 45 <---> Onset_age
+diag age 35 <---> Onset_age
+diagnose at age 77 <---> Onset_age
+diagnosed ""young"" in his 40s or 50s <---> Onset_range
+diagnosed a couple of months ago approx. april 2016 <---> Onset_period
+diagnosed after menopause <---> Onset_string
+diagnosed age 55 <---> Onset_age
+diagnosed age 60 <---> Onset_age
+diagnosed age 65 <---> Onset_age
+diagnosed age 67 <---> Onset_age
+diagnosed age 72 <---> Onset_age
+diagnosed age 74 <---> Onset_age
+diagnosed age 78 <---> Onset_age
+diagnosed age ~ age 47 <---> Onset_age
+diagnosed around age 27 <---> Onset_range
+diagnosed around age 80 <---> Onset_range
+diagnosed at 40 <---> Onset_age
+diagnosed at 48 <---> Onset_age
+diagnosed at 55 <---> Onset_age
+diagnosed at 59 <---> Onset_age
+diagnosed at 63 yrs old <---> Onset_age
+diagnosed at 80 <---> Onset_age
+diagnosed at 81 years <---> Onset_age
+diagnosed at age 34 yrs <---> Onset_age
+diagnosed at age 40 <---> Onset_age
+diagnosed at age 47 <---> Onset_age
+diagnosed at age 47 yrs <---> Onset_age
+diagnosed at age 48 yrs <---> Onset_age
+diagnosed at age 50 <---> Onset_age
+diagnosed at age 50 yrs <---> Onset_age
+diagnosed at age 55 <---> Onset_age
+diagnosed at age 60 <---> Onset_age
+diagnosed at age 65 yrs <---> Onset_age
+diagnosed at age 68 <---> Onset_age
+diagnosed at age 69 yrs <---> Onset_age
+diagnosed at age 7 <---> Onset_age
+diagnosed at age 70 yrs <---> Onset_age
+diagnosed at age 71 <---> Onset_age
+diagnosed at age 79 yrs <---> Onset_age
+diagnosed at approx 55 years <---> Onset_range
+diagnosed at approx age 50 <---> Onset_range
+diagnosed her 60s <---> Onset_range
+diagnosed in 50's <---> Onset_range
+diagnosed in 50s <---> Onset_range
+diagnosed in 60s <---> Onset_range
+diagnosed in 60s of age <---> Onset_range
+diagnosed in 80's <---> Onset_range
+diagnosed in her 30's <---> Onset_range
+diagnosed in her 40's <---> Onset_range
+diagnosed in her 40s <---> Onset_range
+diagnosed in her 50's <---> Onset_range
+diagnosed in her 50s <---> Onset_range
+diagnosed in her 60's <---> Onset_range
+diagnosed in her 60s <---> Onset_range
+diagnosed in her 70's <---> Onset_range
+diagnosed in her 70s <---> Onset_range
+diagnosed in her late 40's <---> Onset_range
+diagnosed in his 40's <---> Onset_range
+diagnosed in his 40s <---> Onset_range
+diagnosed in his 50's <---> Onset_range
+diagnosed in his 50s <---> Onset_range
+diagnosed in his 60's <---> Onset_range
+diagnosed in his 60s <---> Onset_range
+diagnosed in his 70's <---> Onset_range
+diagnosed in his 70s <---> Onset_range
+diagnosed in his 80s <---> Onset_range
+diagnosed in late 50's <---> Onset_range
+diagnosed in their 40s <---> Onset_range
+diagnosed january 2009 <---> Onset_period
+diagnosed late 30s <---> Onset_range
+diagnosed late 40s <---> Onset_range
+diagnosed late 50s <---> Onset_range
+diagnosed stage 4 <---> Reason_Condition_Code
+diagnosed when 55, doing well <---> Onset_age
+diagnosed with colon cancer in ~ 60s <---> Onset_range
+diagnosed ~ age 60 <---> Onset_age
+diagnosed ~ age 70 <---> Onset_age
+diagnosed ~ age 78 <---> Onset_age
+diagnosis at 30's <---> Onset_range
+dicer gene mutation <---> Reason_Condition_Code
+die of <---> Deceased_string
+died <---> Deceased_string
+died 20 <---> Deceased_age
+died 2002 <---> Deceased_date
+died 4 years ago <---> Deceased_string
+died 50 <---> Deceased_age
+died 6 mo later <---> Deceased_date
+died 70 <---> Deceased_age
+died 70s <---> Deceased_range
+died < age 60 <---> Deceased_range
+died ? type of cancer- poss rectum- aroudn age 74 <---> Deceased_range
+died @ 40 <---> Deceased_age
+died @ 48 yo <---> Deceased_age
+died @ 60 y.o <---> Deceased_age
+died age 30 <---> Deceased_age
+died age 35 <---> Deceased_age
+died age 37 <---> Deceased_age
+died age 40 <---> Deceased_age
+died age 41 <---> Deceased_age
+died age 43 <---> Deceased_age
+died age 44 <---> Deceased_age
+died age 48 <---> Deceased_age
+died age 5 <---> Deceased_age
+died age 54 <---> Deceased_age
+died age 56 yrs <---> Deceased_age
+died age 60 <---> Deceased_age
+died age 61 <---> Deceased_age
+died age 62 <---> Deceased_age
+died age 65 <---> Deceased_age
+died age 66 <---> Deceased_age
+died age 68 <---> Deceased_age
+died age 68 y/o with colon cancer <---> Deceased_age
+died age 70s <---> Deceased_range
+died age 72 <---> Deceased_age
+died age 76 <---> Deceased_age
+died age 78 <---> Deceased_age
+died age 79 <---> Deceased_age
+died age 80 <---> Deceased_age
+died age 82 <---> Deceased_age
+died age 83 <---> Deceased_age
+died at 24 y/o <---> Deceased_age
+died at 36 <---> Deceased_age
+died at 36 y/o <---> Deceased_age
+died at 43 <---> Deceased_age
+died at 46 <---> Deceased_age
+died at 47 <---> Deceased_age
+died at 48 <---> Deceased_age
+died at 54 <---> Deceased_age
+died at 56yrs <---> Deceased_age
+died at 58yrs <---> Deceased_age
+died at 63 <---> Deceased_age
+died at 64 <---> Deceased_age
+died at 65 yo <---> Deceased_age
+died at 67 in remote ethiopia <---> Deceased_age
+died at 69 <---> Deceased_age
+died at 7 yo <---> Deceased_age
+died at 72 <---> Deceased_age
+died at 80 <---> Deceased_age
+died at 82 <---> Deceased_age
+died at 94 <---> Deceased_age
+died at 96.5 <---> Deceased_age
+died at 97 from it <---> Deceased_age
+died at 97 y/o <---> Deceased_age
+died at 98 <---> Deceased_age
+died at age 20 <---> Deceased_age
+died at age 30-40s <---> Deceased_range
+died at age 40 <---> Deceased_age
+died at age 51 <---> Deceased_age
+died at age 62 <---> Deceased_age
+died at age 64 <---> Deceased_age
+died at age 66 <---> Deceased_age
+died at age 70's <---> Deceased_range
+died at age 80 <---> Deceased_age
+died at age 81 <---> Deceased_age
+died at age 85 <---> Deceased_age
+died at age of 32yrs <---> Deceased_age
+died at age of 39yrs <---> Deceased_age
+died at age of 51yrs <---> Deceased_age
+died at age of 57yrs <---> Deceased_age
+died at age of 63yrs <---> Deceased_age
+died at age of 78yrs <---> Deceased_age
+died at the age of 56 from <---> Deceased_age
+died august 2009 <---> Deceased_date
+died august 2009 at age 41 <---> Deceased_age
+died colon ca 85 yo <---> Deceased_age
+died colon cancer- age 66 <---> Deceased_age
+died from <---> Deceased_string
+died from it <---> Deceased_string
+died from skin cancer in 30's <---> Deceased_range
+died from stomach ca. age 63 <---> Deceased_age
+died from this <---> Deceased_string
+died from this age unknown <---> Deceased_string
+died in 30s of <---> Deceased_range
+died in 40s <---> Deceased_range
+died in 60s <---> Deceased_range
+died in 90s of age <---> Deceased_age
+died in early 40's <---> Deceased_range
+died in early 60's <---> Deceased_range
+died in her 40's <---> Deceased_range
+died in her 60;s <---> Deceased_range
+died in her 70's <---> Onset_range
+died in mid-60s <---> Deceased_range
+died multiple myeloma young age- 38 <---> Deceased_age
+died of <---> Deceased_string
+died of bladder ca at 104 <---> Deceased_age
+died of colon ca at 55 <---> Deceased_age
+died of colon cancer also at 65 <---> Deceased_age
+died of colon cancer in her 70s <---> Deceased_range
+died of colon cancer in her 80s <---> Deceased_range
+died of colon cancer, age ~ 50 <---> Deceased_range
+died of it at age 92 <---> Deceased_age
+died of it in her 80s <---> Deceased_range
+died of leukemia age 9 <---> Deceased_age
+died of leukemia at age of 70yrs <---> Deceased_age
+died of lymphoma ca, dec. 23, 2004 <---> Deceased_date
+died of mva, at age of 78yrs <---> Deceased_age
+died of pancreatic cancer age ~ age 88" <---> Deceased_age
+died of this <---> Deceased_string
+died of this, age 60's? <---> Deceased_range
+died of this, age 70's <---> Deceased_range
+died of this, uncertain age ?50s <---> Deceased_range
+died of thyroid cancer at age of 72yrs <---> Deceased_age
+died of, early 40s <---> Deceased_range
+died stomach cancer age 65 <---> Deceased_age
+died young <---> Deceased_range
+died- age 88 <---> Deceased_age
+digestive tract <---> Reason_Condition_Code
+diverticulitis <---> Reason_Condition_Code
+dm <---> Reason_Condition_Code
+does not know much <---> Uncertainty
+doesn't have <---> Negation
+doesn't know <---> Uncertainty
+don't know <---> Uncertainty
+double mastectomy <---> Reason_Condition_Code
+down's syndrome <---> Reason_Condition_Code
+downwinder <---> Reason_Condition_Code
+drinker <---> Reason_Condition_Code
+dvt <---> Reason_Condition_Code
+dx 60's <---> Onset_age
+dx 60's & 50's <---> Onset_age
+dx 7 years ago <---> Deceased_string
+dx age 32 <---> Onset_age
+dx age 35 <---> Onset_age
+dx age 35 with adenocarcinoma <---> Onset_age
+dx age 48 <---> Deceased_age
+dx age 70 <---> Onset_age
+dx age 75 <---> Onset_age
+dx age 77 <---> Onset_age
+dx age early 40 <---> Onset_range
+dx as adult <---> Onset_range
+dx at 21 yo <---> Onset_age
+dx at 34 yo <---> Onset_age
+dx at 38 yo <---> Onset_age
+dx at 42 <---> Onset_age
+dx at 50 <---> Onset_age
+dx at 50yo <---> Onset_age
+dx at 52 years <---> Onset_age
+dx at 52 yo <---> Onset_age
+dx at 66 yo <---> Onset_age
+dx at 78 yo <---> Onset_age
+dx at 80 <---> Onset_age
+dx at age 2 <---> Onset_age
+dx at age 52 <---> Onset_age
+dx at age 52, 53 <---> Onset_age
+dx at age 63 yo <---> Onset_age
+dx at age of 70's <---> Onset_range
+dx in 40s <---> Onset_range
+dx in 60's <---> Onset_range
+dx in 60s <---> Onset_range
+dx in 70's <---> Onset_range
+dx in 70s <---> Onset_range
+dx in her 40's or 50's <---> Onset_range
+dx in her 40s <---> Onset_range
+dx in her 60's <---> Onset_range
+dx in his late 60's <---> Onset_range
+dx in late 60s <---> Onset_range
+dx in the 60's <---> Onset_range
+dx late 70s <---> Onset_range
+dx mid-60s <---> Onset_range
+dx'd 72 <---> Onset_age
+dx'd age 30 <---> Onset_age
+dx'd age 64 <---> Onset_age
+dx'd at 74 <---> Onset_age
+dx'd at age 38 <---> Onset_age
+dx'd in 30s <---> Onset_age
+dx'd in 30s and 40s <---> Onset_age
+dx'd in 60's <---> Onset_range
+dx'd in 70's <---> Onset_range
+dx'ed age 60 <---> Onset_age
+dx'ed in her late 50's <---> Onset_range
+dx. 55 <---> Onset_age
+dx’d age 50 <---> Onset_age
+ear cancer <---> Reason_Condition_Code
+early <---> Onset_string
+early 40s <---> Onset_range
+early 50s <---> Onset_range
+early 60's <---> Onset_range
+early 60's. <---> Onset_range
+early 60s <---> Onset_range
+early 70's <---> Onset_range
+early onset in late 30s <---> Onset_range
+early stage <---> Reason_Condition_Code
+elderly <---> Onset_range
+emphysema <---> Reason_Condition_Code
+endometrial adenosquamous <---> Reason_Condition_Code
+endometrial ca <---> Reason_Condition_Code
+endometrial cancer <---> Reason_Condition_Code
+epigastric cancer <---> Reason_Condition_Code
+esoph <---> Reason_Condition_Code
+esophageal <---> Reason_Condition_Code
+esophageal ca <---> Reason_Condition_Code
+esophageal cancer <---> Reason_Condition_Code
+esophagial cancer <---> Reason_Condition_Code
+esophagus <---> Reason_Condition_Code
+etoh <---> Reason_Condition_Code
+everywhere <---> Reason_Condition_Code
+ewing sarcoma <---> Reason_Condition_Code
+expired <---> Deceased_string
+eye <---> Reason_Condition_Code
+face <---> Reason_Condition_Code
+facial ca <---> Reason_Condition_Code
+facial cancer <---> Reason_Condition_Code
+fam hx <---> Relationship
+family members <---> Relationship
+fatal <---> Deceased_string
+faternal <---> Sidedness_maternal
+faternal grandfather <---> Relationship
+father <---> Relationship
+father extended family <---> Sidedness_paternal
+father's <---> Sidedness_paternal
+father's aunt <---> Relationship
+father's side <---> Sidedness_paternal
+father's side of family <---> Sidedness_paternal
+fathers side <---> Sidedness_paternal
+female <---> Gender
+females in the family <---> Sidedness_maternal
+femur <---> Reason_Condition_Code
+fertility preserving treatment <---> Reason_Condition_Code
+fibroid <---> Reason_Condition_Code
+fibroid breast disease <---> Reason_Condition_Code
+fibromyalgia <---> Reason_Condition_Code
+first cousin <---> Relationship
+first cousins <---> Relationship
+first degree relatives <---> Relationship
+forehead, metastasized <---> Reason_Condition_Code
+found at age 70 <---> Onset_age
+free <---> Negation
+from colon cancer <---> Reason_Condition_Code
+gall bladder <---> Reason_Condition_Code
+gallbaldder porta hepatis <---> Reason_Condition_Code
+gallbladder <---> Reason_Condition_Code
+gallblader <---> Reason_Condition_Code
+gastric <---> Reason_Condition_Code
+gastric cancer <---> Reason_Condition_Code
+gene <---> Reason_Condition_Code
+gene carrier <---> Reason_Condition_Code
+genetic testing <---> Reason_Condition_Code
+genital tract <---> Reason_Condition_Code
+gf <---> Relationship
+ggm <---> Relationship
+gi <---> Reason_Condition_Code
+gi cancer <---> Reason_Condition_Code
+gi lymphoma <---> Reason_Condition_Code
+glioblastoma <---> Reason_Condition_Code
+gm <---> Relationship
+grand-aunts <---> Relationship
+grandfather <---> Relationship
+grandfathers <---> Relationship
+grandfathers sister <---> Relationship
+grandma <---> Relationship
+grandpa <---> Relationship
+grandparents <---> Relationship
+granma <---> Relationship
+great <---> Relationship
+great and great great grandfather <---> Relationship
+great aunt and her daughter <---> Relationship
+great aunt x 2 <---> Relationship
+great aunts <---> Relationship
+great aunts and uncles <---> Relationship
+great gm <---> Relationship
+great gpa <---> Relationship
+great grandfather <---> Relationship
+great grandma <---> Relationship
+great grandmother <---> Relationship
+great grandmother maternal <---> Relationship
+great grandpa <---> Relationship
+great great grandfather <---> Relationship
+great great grandmother <---> Relationship
+great mat grandmother <---> Relationship
+great maternal aunt <---> Relationship
+great mgm <---> Relationship
+great paternal grandfather <---> Relationship
+great pgm <---> Relationship
+great uncle <---> Relationship
+great uncles <---> Relationship
+great-aunt <---> Relationship
+great-grandmother <---> Relationship
+great-uncle <---> Relationship
+greatgrandmother <---> Relationship
+had colostomy <---> Reason_Condition_Code
+had spread <---> Reason_Condition_Code
+half <---> Part_Full_Relatedness
+half brother <---> Part_Full_Relatedness
+half sister <---> Relationship
+half sisters <---> Relationship
+half-sister <---> Relationship
+heart issues <---> Reason_Condition_Code
+heavy smoker <---> Reason_Condition_Code
+hemorrhage <---> Reason_Condition_Code
+hepatitis c <---> Reason_Condition_Code
+her brother <---> Relationship
+her mother <---> Relationship
+his aunt <---> Relationship
+hodgekin's <---> Reason_Condition_Code
+hodgekins <---> Reason_Condition_Code
+hodgkin's lymphoma <---> Reason_Condition_Code
+hodgkins <---> Reason_Condition_Code
+hodgkins disease <---> Reason_Condition_Code
+hodgkins lymphoma <---> Reason_Condition_Code
+hodgson's lymphoma <---> Reason_Condition_Code
+hodkins lymphoma <---> Reason_Condition_Code
+hpv <---> Reason_Condition_Code
+htn <---> Reason_Condition_Code
+hypertension <---> Reason_Condition_Code
+hyserectomy <---> Reason_Condition_Code
+hyst <---> Reason_Condition_Code
+hystectomy <---> Reason_Condition_Code
+hysterectomy <---> Reason_Condition_Code
+idential twin <---> Relationship
+identical sister <---> Relationship
+if on hormones <---> Reason_Condition_Code
+in 20s <---> Onset_range
+in 40's <---> Onset_range
+in 40s <---> Onset_range
+in 50's <---> Onset_range
+in 50s <---> Onset_range
+in 50s at age of diagnosis <---> Onset_range
+in 60s <---> Onset_range
+in 80's <---> Onset_range
+in early 30's <---> Onset_range
+in her 30's <---> Onset_range
+in her 30s <---> Onset_range
+in her 40's <---> Onset_range
+in her 40s <---> Onset_range
+in her 50 s <---> Onset_range
+in her 50s <---> Onset_range
+in her 60 s <---> Onset_range
+in her 60's <---> Onset_range
+in her 70s <---> Onset_range
+in her 80s <---> Onset_range
+in her mid 60s <---> Onset_range
+in his 70s <---> Onset_range
+in his 80's <---> Onset_range
+in his early 40s <---> Onset_range
+in his early 80's <---> Onset_range
+in his late 50s <---> Onset_range
+in his skull <---> Reason_Condition_Code
+in neck <---> Reason_Condition_Code
+in their 60s <---> Onset_range
+infant <---> Onset_range
+instestional <---> Reason_Condition_Code
+internal <---> Reason_Condition_Code
+intestinal <---> Reason_Condition_Code
+intestinal cancer <---> Reason_Condition_Code
+intestine cancer <---> Reason_Condition_Code
+intestines <---> Reason_Condition_Code
+jan <---> Deceased_date
+jan15 <---> Onset_period
+jaw cancer <---> Reason_Condition_Code
+june,2007 died <---> Deceased_date
+just recently diagnosed <---> Onset_string
+kidney <---> Reason_Condition_Code
+kidney cancer <---> Reason_Condition_Code
+kidney removed <---> Reason_Condition_Code
+kidney stone <---> Reason_Condition_Code
+kidney tumor, benign <---> Reason_Condition_Code
+knee cancer <---> Reason_Condition_Code
+large cell lymphoma <---> Reason_Condition_Code
+laryngeal <---> Reason_Condition_Code
+larynx <---> Reason_Condition_Code
+late <---> Onset_string
+late 20's <---> Onset_range
+late 30's <---> Onset_range
+late 40's <---> Onset_range
+late 40s <---> Onset_range
+late 50's <---> Onset_range
+late 50's early 60's <---> Onset_range
+late 70's <---> Onset_range
+late 70s <---> Onset_range
+late 80 <---> Onset_range
+late in life---in her 90s <---> Onset_range
+late stage <---> Reason_Condition_Code
+later in life (>60) diagnosis <---> Onset_range
+leg <---> Reason_Condition_Code
+leiomyosarcoma <---> Reason_Condition_Code
+lelukemia <---> Reason_Condition_Code
+leuemia <---> Reason_Condition_Code
+leukeimia- cll <---> Reason_Condition_Code
+leukemia <---> Reason_Condition_Code
+leukemia aml <---> Reason_Condition_Code
+leukemia with bmt <---> Reason_Condition_Code
+leukimia <---> Reason_Condition_Code
+lip <---> Reason_Condition_Code
+liposarcoma; in chest <---> Reason_Condition_Code
+lived to 80 <---> Deceased_age
+liver <---> Reason_Condition_Code
+liver ca <---> Reason_Condition_Code
+liver cancer <---> Reason_Condition_Code
+liver, malignant <---> Reason_Condition_Code
+luekemia <---> Reason_Condition_Code
+lump removed <---> Reason_Condition_Code
+lump/chemo treatment <---> Reason_Condition_Code
+lumpectomy <---> Reason_Condition_Code
+lumps <---> Reason_Condition_Code
+lumps removed <---> Reason_Condition_Code
+lung <---> Reason_Condition_Code
+lung ca <---> Reason_Condition_Code
+lung cancer <---> Reason_Condition_Code
+lung nodule w/ satelite <---> Reason_Condition_Code
+lungs <---> Reason_Condition_Code
+lupus <---> Reason_Condition_Code
+lymph <---> Reason_Condition_Code
+lymph node <---> Reason_Condition_Code
+lymph node removed <---> Reason_Condition_Code
+lymph nodes <---> Reason_Condition_Code
+lymphatic lukiemia <---> Reason_Condition_Code
+lymphatic melanoma <---> Reason_Condition_Code
+lymphnode <---> Reason_Condition_Code
+lymphnoids <---> Reason_Condition_Code
+lymphoblastic <---> Reason_Condition_Code
+lymphoma <---> Reason_Condition_Code
+lymphoma ca <---> Reason_Condition_Code
+lymphome <---> Reason_Condition_Code
+lynch <---> Reason_Condition_Code
+lynch syndrome <---> Reason_Condition_Code
+m <---> Sidedness_maternal
+m aunt <---> Sidedness_maternal
+m great grandmother <---> Relationship
+male <---> Gender
+male breast cancer <---> Reason_Condition_Code
+malignant brain tumors <---> Reason_Condition_Code
+married his cousin <---> Relationship
+mastectomy <---> Reason_Condition_Code
+mastectomy left with reconstruction <---> Reason_Condition_Code
+mat <---> Sidedness_maternal
+mat aunt <---> Relationship
+mat g aunt <---> Relationship
+mat ggm <---> Relationship
+mat gm <---> Relationship
+mat. aunt <---> Relationship
+matectomy <---> Reason_Condition_Code
+materal <---> Sidedness_maternal
+materal ant <---> Relationship
+maternal <---> Sidedness_maternal
+maternal aunt <---> Relationship
+maternal aunt, cousin <---> Relationship
+maternal cousin <---> Relationship
+maternal ggm <---> Relationship
+maternal grandfather <---> Relationship
+maternal grandfather brother <---> Relationship
+maternal greandmother aunts <---> Relationship
+maternal great aunt <---> Relationship
+maternal great grand mother <---> Relationship
+maternal great grandmother <---> Relationship
+maternal side <---> Sidedness_maternal
+maternal uncle <---> Relationship
+maternal uncles <---> Relationship
+maternal-older sister <---> Relationship
+maternal-younger sister <---> Relationship
+matneral <---> Sidedness_maternal
+matneral aunt <---> Relationship
+maturnal <---> Sidedness_maternal
+maturnal uncle <---> Relationship
+may have <---> Uncertainty
+maybe <---> Uncertainty
+maybe age 40 <---> Onset_range
+melanoma <---> Reason_Condition_Code
+melanoma bcc <---> Reason_Condition_Code
+melanoma leg <---> Reason_Condition_Code
+melenoma <---> Reason_Condition_Code
+melenomia <---> Reason_Condition_Code
+mellenoma <---> Reason_Condition_Code
+melonoma <---> Reason_Condition_Code
+menigioma <---> Reason_Condition_Code
+menopause <---> Reason_Condition_Code
+menorrhagia <---> Reason_Condition_Code
+mesothelioma <---> Reason_Condition_Code
+metastases to lung <---> Reason_Condition_Code
+metastasized <---> Reason_Condition_Code
+metastatic <---> Reason_Condition_Code
+metastatic breast cancer <---> Reason_Condition_Code
+metastatic cancer <---> Reason_Condition_Code
+metastatic cervical cancer <---> Reason_Condition_Code
+metastatic colon cancer <---> Reason_Condition_Code
+metastatic kidney cancer <---> Reason_Condition_Code
+methastase <---> Reason_Condition_Code
+mets to brain <---> Reason_Condition_Code
+mets to the lungs <---> Reason_Condition_Code
+mg <---> Sidedness_maternal
+mg aunt <---> Relationship
+mggm, <---> Sidedness_maternal
+mggm, aunt <---> Relationship
+mgm's <---> Sidedness_maternal
+mgm's brother <---> Relationship
+mid 50s <---> Onset_range
+mid 60's <---> Onset_range
+mid to late 30's <---> Onset_range
+mid-forties <---> Onset_range
+miner <---> Reason_Condition_Code
+mom <---> Relationship
+mom's <---> Sidedness_maternal
+mom's aunt <---> Relationship
+mom's dad's mother <---> Relationship
+mom's side <---> Sidedness_maternal
+mom's side of family <---> Sidedness_maternal
+moms side <---> Sidedness_maternal
+more likely <---> Uncertainty
+mother in-law <---> Relationship
+mother side <---> Sidedness_maternal
+mother's <---> Sidedness_maternal
+mother's brother <---> Relationship
+mother's cousin <---> Relationship
+mother's family <---> Sidedness_maternal
+mother's great aunt <---> Relationship
+mother's side <---> Sidedness_maternal
+mothers 1st cousin <---> Relationship
+mothers half-brother <---> Relationship
+mothers side <---> Sidedness_maternal
+mothers side of family <---> Sidedness_maternal
+mouth <---> Reason_Condition_Code
+mouth ca <---> Reason_Condition_Code
+mouth cancer <---> Reason_Condition_Code
+mtr side <---> Sidedness_maternal
+multiple myeloma <---> Reason_Condition_Code
+multiple myoloma <---> Reason_Condition_Code
+multiplemyaloma <---> Reason_Condition_Code
+multiplemyeloma <---> Reason_Condition_Code
+muslce cancer <---> Reason_Condition_Code
+mutated gene <---> Reason_Condition_Code
+myeloma <---> Reason_Condition_Code
+myloma <---> Reason_Condition_Code
+nasalpharnygeal <---> Reason_Condition_Code
+nasopharyngeal ca <---> Reason_Condition_Code
+neck <---> Reason_Condition_Code
+neck tumors <---> Reason_Condition_Code
+negative <---> Negation
+neices <---> Relationship
+nephew <---> Relationship
+neuroblastoma <---> Reason_Condition_Code
+new diag <---> Onset_string
+nh lymphoma <---> Reason_Condition_Code
+nhl <---> Reason_Condition_Code
+niece <---> Relationship
+no alcohol <---> Reason_Condition_Code
+no hx <---> Negation
+no signs <---> Negation
+nobody <---> Negation
+non hodgkin's lymphoma <---> Reason_Condition_Code
+non hodgkins <---> Reason_Condition_Code
+non hodgkins lymphoma <---> Reason_Condition_Code
+non-hodgins lymphoma <---> Reason_Condition_Code
+non-hodgkin lymphoma <---> Reason_Condition_Code
+non-hodgkin's lymphoma <---> Reason_Condition_Code
+non-hodgkins disease <---> Reason_Condition_Code
+non-hodgkins lymphoma <---> Reason_Condition_Code
+non-smoker <---> Reason_Condition_Code
+none <---> Negation
+nonhodgkins lymphoma <---> Reason_Condition_Code
+nonsmoker <---> Reason_Condition_Code
+not <---> Negation
+not biological <---> Relationship
+not certain <---> Uncertainty
+not sure <---> Uncertainty
+not sure type <---> Uncertainty
+nov15 <---> Onset_period
+now age 22 <---> Onset_age
+oct, sep <---> Onset_period
+older sister <---> Relationship
+onset late 50's <---> Onset_range
+onset mid-50's <---> Onset_range
+onthe tongue <---> Reason_Condition_Code
+oral <---> Reason_Condition_Code
+oral cancer <---> Reason_Condition_Code
+osteosarcoma <---> Reason_Condition_Code
+other relatives <---> Relationship
+other tumors <---> Reason_Condition_Code
+ov <---> Reason_Condition_Code
+ovaraian <---> Reason_Condition_Code
+ovarain <---> Reason_Condition_Code
+ovarian ca <---> Reason_Condition_Code
+ovarian cancer <---> Reason_Condition_Code
+ovarian cancer with mets <---> Deceased_string
+ovarian-- malignant <---> Reason_Condition_Code
+ovaries <---> Reason_Condition_Code
+ovaries intact <---> Reason_Condition_Code
+ovarion <---> Reason_Condition_Code
+ovary <---> Reason_Condition_Code
+over age 50 <---> Onset_range
+over age of 60 <---> Onset_age
+pancreas <---> Reason_Condition_Code
+pancreatic <---> Reason_Condition_Code
+pancreatic ca <---> Reason_Condition_Code
+pancreatic ca with mets <---> Reason_Condition_Code
+pancreatic cancer <---> Reason_Condition_Code
+pancreratic <---> Reason_Condition_Code
+panreactic <---> Reason_Condition_Code
+paraganglioma <---> Reason_Condition_Code
+parents <---> Relationship
+part of tongue removed <---> Reason_Condition_Code
+partial colectomy <---> Reason_Condition_Code
+passed <---> Deceased_string
+passed 1995 <---> Deceased_date
+passed at 60 <---> Deceased_age
+passed away <---> Deceased_string
+passed away 1992 <---> Deceased_date
+passed away a few years later <---> Deceased_date
+passed away at 44 year <---> Deceased_age
+passed away august 2014 <---> Deceased_date
+passed away from it <---> Deceased_string
+passed away in 2015 <---> Deceased_date
+passed away of cancer at 63 years old <---> Deceased_age
+passed away, in her 50's <---> Deceased_range
+passed in 60's <---> Deceased_range
+passed in her 40's or 50's <---> Deceased_range
+pat <---> Sidedness_paternal
+pat aunt <---> Relationship
+paternal <---> Sidedness_paternal
+paternal aunt <---> Relationship
+paternal aunt's daughter <---> Relationship
+paternal aunts <---> Relationship
+paternal aurt <---> Relationship
+paternal counsin <---> Relationship
+paternal cousin <---> Relationship
+paternal cousins <---> Relationship
+paternal ggm <---> Relationship
+paternal grand parents <---> Relationship
+paternal grandmother <---> Relationship
+paternal great aunts <---> Relationship
+paternal great grandfather <---> Relationship
+paternal great grandmother <---> Relationship
+paternal great grandparent <---> Relationship
+paternal side <---> Sidedness_paternal
+paternal uncle <---> Relationship
+pe <---> Reason_Condition_Code
+peri-menopaual breast cancer <---> Reason_Condition_Code
+pgf - great grandfather <---> Relationship
+pineal <---> Reason_Condition_Code
+pituitary <---> Reason_Condition_Code
+polyp <---> Reason_Condition_Code
+polyp removal <---> Reason_Condition_Code
+polyp removed <---> Reason_Condition_Code
+polyps <---> Reason_Condition_Code
+polyps removed <---> Reason_Condition_Code
+positive <---> Positive
+possible <---> Uncertainty
+possibly <---> Uncertainty
+post menopausal breast cancer <---> Reason_Condition_Code
+post menopausal onset <---> Onset_string
+post-menopausal <---> Reason_Condition_Code
+postmen <---> Reason_Condition_Code
+pre cancer <---> Reason_Condition_Code
+pre cancer cervical <---> Reason_Condition_Code
+pre cancerous cells in uterus <---> Reason_Condition_Code
+pre cancerous polyps <---> Reason_Condition_Code
+pre-cancerous polyps <---> Reason_Condition_Code
+pre-pancreatic <---> Reason_Condition_Code
+precancerous <---> Reason_Condition_Code
+precancerous lesion removed <---> Reason_Condition_Code
+precancerous polyp <---> Reason_Condition_Code
+premenopausal <---> Reason_Condition_Code
+presumed <---> Uncertainty
+pretty young <---> Onset_string
+prior to age 20 <---> Onset_range
+probably <---> Uncertainty
+prostate <---> Reason_Condition_Code
+prostate ca <---> Reason_Condition_Code
+prostate cancer <---> Reason_Condition_Code
+pt's sister <---> Relationship
+questionable <---> Uncertainty
+questional <---> Uncertainty
+ra <---> Reason_Condition_Code
+radiation <---> Reason_Condition_Code
+radiation necrosis <---> Reason_Condition_Code
+radiation therapy <---> Reason_Condition_Code
+rare stomach cancer <---> Reason_Condition_Code
+rectal <---> Reason_Condition_Code
+rectal cancer <---> Reason_Condition_Code
+rectal cancer stage 3.5 <---> Reason_Condition_Code
+rectum <---> Reason_Condition_Code
+recurrence age 60 <---> Onset_age
+relatives <---> Relationship
+remission <---> Reason_Condition_Code
+remission at <---> Reason_Condition_Code
+removal of 1 breast <---> Reason_Condition_Code
+removed a cyst <---> Reason_Condition_Code
+renal <---> Reason_Condition_Code
+renal cancer <---> Reason_Condition_Code
+renal cell <---> Reason_Condition_Code
+renal cell carcinoma <---> Reason_Condition_Code
+reoccur 75 <---> Onset_age
+reproductive system <---> Reason_Condition_Code
+retina <---> Reason_Condition_Code
+returned at age 28 <---> Onset_age
+s/p colostomy <---> Reason_Condition_Code
+s/p hyst <---> Reason_Condition_Code
+s/p hysterectomy <---> Reason_Condition_Code
+s/p lumpectomy <---> Reason_Condition_Code
+s/p treatment <---> Reason_Condition_Code
+same son <---> Relationship
+sarcoma <---> Reason_Condition_Code
+sarcoma in jaw <---> Reason_Condition_Code
+second degree <---> Relationship
+several family <---> Relationship
+shoulder cancer <---> Reason_Condition_Code
+siblings <---> Relationship
+sinus <---> Reason_Condition_Code
+sinus cancer <---> Reason_Condition_Code
+sister <---> Relationship
+sisters <---> Relationship
+skin <---> Reason_Condition_Code
+skin -- melanoma <---> Reason_Condition_Code
+skin ca <---> Reason_Condition_Code
+skin cancer <---> Reason_Condition_Code
+skin cancer of the ear <---> Reason_Condition_Code
+skin cancer on eye lid <---> Reason_Condition_Code
+skin cancers <---> Reason_Condition_Code
+skin melanoma <---> Reason_Condition_Code
+skin, metastatic <---> Reason_Condition_Code
+small intestines <---> Reason_Condition_Code
+smoker <---> Reason_Condition_Code
+smokers <---> Reason_Condition_Code
+smoking <---> Reason_Condition_Code
+soft tissue <---> Reason_Condition_Code
+son <---> Relationship
+spinal <---> Reason_Condition_Code
+spine <---> Reason_Condition_Code
+spleen <---> Reason_Condition_Code
+spouse <---> Relationship
+spread to brain <---> Reason_Condition_Code
+squamous cell <---> Reason_Condition_Code
+squamous cell carcinoma <---> Reason_Condition_Code
+squamous skin <---> Reason_Condition_Code
+squamous, basal cell skin <---> Reason_Condition_Code
+stage 1 <---> Reason_Condition_Code
+stage 1 polyp <---> Reason_Condition_Code
+stage 1and precancerous in esophagus <---> Reason_Condition_Code
+stage 3 colon cancer <---> Reason_Condition_Code
+stage 3b <---> Reason_Condition_Code
+stage 4 <---> Reason_Condition_Code
+stomach <---> Reason_Condition_Code
+stomach ca <---> Reason_Condition_Code
+stomach cancer <---> Reason_Condition_Code
+stomach, colon cancer <---> Reason_Condition_Code
+stoomach <---> Relationship
+stroke <---> Reason_Condition_Code
+surgery <---> Reason_Condition_Code
+suspected <---> Uncertainty
+synovial sarcoma <---> Reason_Condition_Code
+t cell lymphoma <---> Reason_Condition_Code
+t-cell lymphoma <---> Reason_Condition_Code
+tah <---> Reason_Condition_Code
+teenager <---> Onset_range
+terminal <---> Deceased_string
+testicular <---> Reason_Condition_Code
+testicular ca <---> Reason_Condition_Code
+testicular cancer <---> Reason_Condition_Code
+testicular cancer with mets <---> Reason_Condition_Code
+testis cancer <---> Reason_Condition_Code
+testulicar <---> Reason_Condition_Code
+thinks <---> Uncertainty
+this was a mistake <---> Negation
+throat <---> Reason_Condition_Code
+throat ca <---> Reason_Condition_Code
+throat cancer <---> Reason_Condition_Code
+throat, due to radiation <---> Reason_Condition_Code
+thymus <---> Reason_Condition_Code
+thyroid <---> Reason_Condition_Code
+thyroid ca <---> Reason_Condition_Code
+thyroid cancer <---> Reason_Condition_Code
+thyroid nodule <---> Reason_Condition_Code
+thyroid removed <---> Reason_Condition_Code
+tistuler <---> Reason_Condition_Code
+tob <---> Reason_Condition_Code
+tounge <---> Reason_Condition_Code
+trachea <---> Reason_Condition_Code
+treatment <---> Reason_Condition_Code
+tumor & kidney removed <---> Reason_Condition_Code
+tumor encompassed kidney <---> Reason_Condition_Code
+tumor on heart <---> Reason_Condition_Code
+twice <---> Onset_string
+type <---> Uncertainty
+ulcerative colitis <---> Reason_Condition_Code
+uncertain <---> Uncertainty
+uncertain history <---> Uncertainty
+uncle <---> Relationship
+uncle's <---> Relationship
+unclel <---> Relationship
+uncles <---> Relationship
+unk <---> Uncertainty
+unknow <---> Uncertainty
+unknow type <---> Uncertainty
+unknown <---> Uncertainty
+unknown etiology <---> Uncertainty
+unknown orgin of cancer <---> Uncertainty
+unknown type <---> Uncertainty
+unkown type <---> Uncertainty
+unspecified <---> Uncertainty
+unsure <---> Uncertainty
+unsure if <---> Uncertainty
+unsure of <---> Uncertainty
+unsure of age <---> Uncertainty
+unsure of the type of cancer <---> Uncertainty
+unsure of type <---> Uncertainty
+unsure what <---> Uncertainty
+unsure what kid <---> Uncertainty
+unsure what kind <---> Uncertainty
+ureter cancer <---> Reason_Condition_Code
+usnure what kind <---> Uncertainty
+ut <---> Reason_Condition_Code
+uteran <---> Reason_Condition_Code
+uteran cancer <---> Reason_Condition_Code
+uterian <---> Reason_Condition_Code
+uterin <---> Reason_Condition_Code
+uterin3 <---> Reason_Condition_Code
+uterince ca <---> Reason_Condition_Code
+uterine <---> Reason_Condition_Code
+uterine ca <---> Reason_Condition_Code
+uterine cancer <---> Reason_Condition_Code
+uterine fibroids <---> Reason_Condition_Code
+uterine lyomeiosarcoma <---> Reason_Condition_Code
+uterine, cancer <---> Reason_Condition_Code
+uterus <---> Reason_Condition_Code
+utx <---> Reason_Condition_Code
+vaginal cancer <---> Reason_Condition_Code
+vesicular lymphoma <---> Reason_Condition_Code
+vulvar <---> Reason_Condition_Code
+w/colon ca <---> Reason_Condition_Code
+was a smoker <---> Reason_Condition_Code
+was over 60 <---> Onset_range
+wbc attacking rbc <---> Reason_Condition_Code
+without positive proof <---> Negation
+wrist <---> Reason_Condition_Code
+x2 <---> Relationship
+young age <---> Onset_range
